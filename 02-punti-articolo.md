@@ -162,21 +162,52 @@ non fatto).**
 ## Piano 5 — Paradosso della verifica
 - **Detector non ancora pubblico** (Anthropic: "presto", dettagli in
   lavorazione — confermato 14 ago, primaria). Fatto controllabile.
-- Quando esce, fa da **oracolo di evasione** (detector pubblico = banco di prova
-  per la rimozione). I "quattro centesimi": è il costo di una passata di parafrasi
-  per strippare, NON il prezzo del detector — ed è lo scenario meno interessante;
-  l'evasione vera è **gratis** (modello open = mai marchiato; riscrittura vera =
-  marchio dissolto). Non aprire dal prezzo: il punto è che aggirarlo è gratis.
+- **La spina — per un watermark, verificare = evadere.** Il detector *è* la
+  funzione che assegna i g-value con la chiave: esporlo perché il pubblico
+  verifichi = esporre l'**oracolo** che permette di limare il marchio finché
+  sparisce. Non è un bug: è il **prezzo della scelta intrinseca** (Art. 50 / P4).
+  Tradeoff di fondo: **intrinseco** = sopravvive al testo nudo MA verifica=evasione;
+  **staccato** (checksum/C2PA) = niente oracolo MA muore al copia-incolla. Anthropic
+  ha scelto l'intrinseco per robustezza → **il trilemma è il conto**. Stesso
+  accoppiamento di P3, sull'asse verifica.
+- **Il trilemma** (asse: *chi esegue il detector* — esaustivo: nessuno/tutti/alcuni;
+  ogni corno uccide un valore diverso):
+  - **chiuso** (solo Anthropic) → salta la **trasparenza** (il pubblico non
+    verifica, deve fidarsi dell'oracolo);
+  - **aperto** (chiunque) → salta la **robustezza** (detector pubblico = oracolo di
+    evasione);
+  - **semi-aperto** (solo piattaforme "fidate") → salta l'**equità/pubblicità**
+    (verifica come **privilegio**: scuola/datore hanno il verdetto su di te, tu no).
+  → **Nessuna config consegna trasparenza *pubblica***: l'obiettivo dichiarato è
+  **strutturalmente irraggiungibile** con questo meccanismo.
+- **Evasione = gratis** (rinforza il corno aperto). I "quattro centesimi" = costo di
+  una passata di parafrasi per strippare, NON il prezzo del detector — scenario meno
+  interessante; l'evasione vera è **gratis** (modello open = mai marchiato;
+  riscrittura vera = marchio dissolto). Non aprire dal prezzo: aggirarlo è gratis.
+- **Controparte dentro (per verità, non armatura):** difesa vera = *"è un segnale di
+  labeling su scala di piattaforma, non uno strumento per giudicare l'individuo"*
+  (uso Google/SynthID = labeling di massa). Corretta — ma allora **non è la
+  trasparenza-pubblica come venduta** per il singolo autore, e il danno è il **riuso
+  prevedibile** per adjudicare l'individuo (scuole/datori già lo fanno con gli
+  AI-detector): nel momento in cui la scuola segnala il tema, sei nel corno
+  semi-aperto.
+- **Aggancio Art. 50 (confermato, vedi `03`):** la legge chiede *"detectable as
+  artificially generated"* ma NON *"pubblicamente verificabile"*, e rinvia a
+  standard/codici (50(7)) → **compatibile con i corni non-pubblici**. Vuole
+  detectability ma non garantisce verificabilità pubblica: ci convive, non ti salva.
+- **Ponte a P6:** il trilemma è la versione **sull'asse-verifica** dell'asimmetria
+  di P6 — anche il detector **adjudica il conforme, non l'evasore** (che non lascia
+  nulla da rilevare). Costo della verifica di nuovo **inverso alla colpa**.
+  Riga-cerniera: *"trasparenza che non è pubblica non è trasparenza — è adjudicazione
+  istituzionale dell'onesto."*
 - **Daubert:** studio forense (lug 2026) — il watermarking di testo attuale non
-  supera lo standard Daubert (non è prova utilizzabile in tribunale). ⚠️
-  DA RI-VERIFICARE ALLA FONTE PRIMARIA (viene da riporti secondari).
-- **Trilemma del detector:** chiuso → il pubblico non verifica (no trasparenza);
-  aperto → banalmente aggirabile (no robustezza); semi-aperto (solo piattaforme
-  fidate) → la verifica diventa un privilegio, non trasparenza pubblica — scuola/
-  datore hanno il verdetto su di te, tu no. Il terzo è il più probabile e il più
-  inquietante.
-**Stato: detector-non-pubblico confermato (primaria); oracolo/Daubert da riporti
-secondari → RI-VERIFICARE.**
+  supera lo standard Daubert (non prova utilizzabile in tribunale). ⚠️ **DA
+  RI-VERIFICARE ALLA PRIMARIA** (riporto secondario). Uso solo come *forma* del
+  punto (segnale non-court-grade usato da chi tribunale non è), NON come dato,
+  finché non trovo la primaria; oppure taglio.
+**Stato: detector-non-pubblico confermato (primaria); trilemma logicamente stretto
++ agganciato ad Art. 50 (primaria); verifica=evasione = prezzo dell'intrinseco
+(spina). Daubert ancora da riverificare.**
 
 ## Piano 6 — Sintesi / tesi *(portante — chiusura)*
 - Il marchio non ti espropria né ti incolpa da solo: rende **visibile quanto ci

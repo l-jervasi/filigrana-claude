@@ -15,6 +15,13 @@ dimostrabile anche se attaccabile; l'attaccabilità apre il dibattito, e il
 dibattito è giusto. Le difese di Anthropic vanno DENTRO il testo e si mostra
 perché non rispondono, non si tengono fuori. **Corollario:** se una frase regge
 troppo comoda, è il segnale di controllarla — vale anche contro Claude in bozza.
+**Corollario gemello (fallimento di Claude visto in sessione):** le controparti
+si mettono dentro per *verità e completezza* (un argomento che ignora il contro
+migliore è asserito, non provato), MAI per rendere il pezzo inattaccabile. Il
+tell: se ti scopri a qualificare/limare una frase *per non essere attaccato* —
+non perché è falsa o imprecisa — stai costruendo il bunker; fermati e lascia il
+claim vero così com'è. Accuratezza (non scrivere un falso) ≠ armatura (smussare
+un vero per difenderlo): la prima si fa sempre, la seconda mai.
 
 ## Piano 2 — perché "entropia sotto chiave fissa", non "entropia della distribuzione"
 **Percorso.** L'autore ha detto "l'entropia cala". Claude ha prima corretto in

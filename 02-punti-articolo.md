@@ -113,6 +113,15 @@ dell'accoppiamento logicamente stretto.**
   interrogabile che *invita la domanda* "quanto ci hai messo di tuo?" — domanda
   che senza marchio non esisterebbe. Colpisce **anche l'autore pienamente
   legittimo** (90% suo, Claude rifinisce), che può dover *provarlo* se contestato.
+- **Base legale confermata (vedi `03`, verificata alla primaria):** copyright
+  automatico (Berne 5(2); USA § 408(a)); presunzione di paternità *salvo prova
+  contraria* (Berne 15(1); UE Dir. 2004/48 Art. 5; USA § 410(c), agganciata alla
+  registrazione); onere sull'accusatore (Feist: ownership + copying). **Precisione
+  che tiene il claim vero:** la presunzione è **rebuttable**; il marchio non
+  attacca il nome, **fabbrica materiale interrogabile** offribile come *proof to
+  the contrary* sulla soglia **paternità-umana/originalità**. Quindi la domanda
+  "quanto è tuo?", di norma mai posta, diventa ponibile. NON "perdi il copyright",
+  NON "prova che è tuo": *crea le condizioni perché la soglia venga interrogata*.
 - Il marchio è **inerte** per proprietà/responsabilità (diritto sostanziale),
   **vivo** sul piano probatorio. Anthropic conferma il sostanziale; l'osservazione
   vive sul probatorio, intatto. Cita-e-ribalta in una riga.

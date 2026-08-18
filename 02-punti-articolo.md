@@ -138,11 +138,14 @@ ripido, non identità.**
   "quanto è tuo?", di norma mai posta, diventa ponibile. NON "perdi il copyright",
   NON "prova che è tuo": *crea le condizioni perché la soglia venga interrogata*.
 - **Art. 50 (primaria, vedi `03`):** il provider NON è obbligato al watermark
-  intrinseco (pavimento = machine-readable + detectable; il "checksum sarebbe
-  bastato" è disponibile) — l'intrinseco è **scelta**, giustificata dal *"robust as
-  far as feasible"*. **Disallineamento chiave:** chi rivede con responsabilità
-  editoriale è **esente dalla disclosure** (50(4)), ma il marchio marca i token lo
-  stesso. Chi la legge esenta dal dichiarare, il marchio marca.
+  intrinseco (pavimento = machine-readable + detectable) — e il **Recital 133 elenca
+  esplicitamente metadata e metodi crittografici di provenance tra le tecniche
+  ammesse**: il "checksum sarebbe bastato" è **sancito dal legislatore**, non solo
+  disponibile. L'intrinseco è **scelta** (un'opzione del menu), giustificata dal
+  *"robust as far as feasible"*. **Disallineamento chiave:** chi rivede con
+  responsabilità editoriale è **esente dalla disclosure** (50(4) + Recital 134), ma
+  il marchio marca i token lo stesso. Chi la legge esenta dal dichiarare, il marchio
+  marca.
 - Il marchio è **inerte** per proprietà/responsabilità (diritto sostanziale),
   **vivo** sul piano probatorio. Anthropic conferma il sostanziale; l'osservazione
   vive sul probatorio, intatto. Cita-e-ribalta in una riga.
@@ -191,10 +194,15 @@ non fatto).**
   prevedibile** per adjudicare l'individuo (scuole/datori già lo fanno con gli
   AI-detector): nel momento in cui la scuola segnala il tema, sei nel corno
   semi-aperto.
-- **Aggancio Art. 50 (confermato, vedi `03`):** la legge chiede *"detectable as
-  artificially generated"* ma NON *"pubblicamente verificabile"*, e rinvia a
-  standard/codici (50(7)) → **compatibile con i corni non-pubblici**. Vuole
-  detectability ma non garantisce verificabilità pubblica: ci convive, non ti salva.
+- **Aggancio Art. 50 (confermato, vedi `03`):** l'obbligo binding (50(2)) chiede
+  *"detectable as artificially generated"* ma NON *"pubblicamente verificabile"*; rinvia
+  a standard/codici (50(7)) → **compatibile con i corni non-pubblici**. **Recital 135
+  (primaria):** la Commissione *"may encourage"* codes of practice per rendere *"the
+  detection mechanisms accessible… to enable the public to effectively distinguish"* →
+  la legge **aspira** al corno pubblico, ma solo via **soft-law**, e quell'aspirazione è
+  **proprio ciò che il trilemma rende irraggiungibile** per un watermark (detector
+  pubblico = oracolo). La legge chiede la cosa che il meccanismo non può dare in
+  sicurezza.
 - **Ponte a P6:** il trilemma è la versione **sull'asse-verifica** dell'asimmetria
   di P6 — anche il detector **adjudica il conforme, non l'evasore** (che non lascia
   nulla da rilevare). Costo della verifica di nuovo **inverso alla colpa**.

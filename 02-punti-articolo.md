@@ -19,7 +19,8 @@ Le affermazioni virali e le correzioni, ora dalla fonte primaria (post Anthropic
   nascosto; è statistico.
 - "correggi un tuo testo e diventa tutto suo" → **falso**: sul proofreading
   quasi tutte le parole restano dell'autore, il marchio ha poco/niente a cui
-  attaccarsi.
+  attaccarsi. **+ base legale (Art. 50(2), primaria — vedi `03`):** l'editing
+  assistito / non-sostanziale è **esente per legge** dalla marcatura del provider.
 - "da ora, tutto" → **falso**: solo modelli post-2 ago 2026; i precedenti in
   transizione.
 - *Editoriale:* l'aggancio è una scelta. Alternativa all'apertura-debunk: aprire
@@ -122,6 +123,12 @@ dell'accoppiamento logicamente stretto.**
   the contrary* sulla soglia **paternità-umana/originalità**. Quindi la domanda
   "quanto è tuo?", di norma mai posta, diventa ponibile. NON "perdi il copyright",
   NON "prova che è tuo": *crea le condizioni perché la soglia venga interrogata*.
+- **Art. 50 (primaria, vedi `03`):** il provider NON è obbligato al watermark
+  intrinseco (pavimento = machine-readable + detectable; il "checksum sarebbe
+  bastato" è disponibile) — l'intrinseco è **scelta**, giustificata dal *"robust as
+  far as feasible"*. **Disallineamento chiave:** chi rivede con responsabilità
+  editoriale è **esente dalla disclosure** (50(4)), ma il marchio marca i token lo
+  stesso. Chi la legge esenta dal dichiarare, il marchio marca.
 - Il marchio è **inerte** per proprietà/responsabilità (diritto sostanziale),
   **vivo** sul piano probatorio. Anthropic conferma il sostanziale; l'osservazione
   vive sul probatorio, intatto. Cita-e-ribalta in una riga.
@@ -165,12 +172,23 @@ secondari → RI-VERIFICARE.**
   vera = zero marchio, solo l'utente passivo resta marchiato. Aggirarlo è gratis.
 - Un sistema di trasparenza che punge l'onesto e sfiora chi lo vuole aggirare.
   L'esatto rovescio del panico del TikTok.
+- **Base legale (Art. 50, primaria — vedi `03`):** per il testo la legge chiede
+  *disclosure* (una nota), non marcatura, ed **esenta** chi rivede con responsabilità
+  editoriale; Anthropic marca comunque, **oltre il pavimento**. Chiusura sviluppata in
+  sessione (18 ago): **marchiatura-non-disclosure** (modello-citazione: la firma
+  allegata basta all'onesto, l'intrinseco è imposto) + **asimmetria della conseguenza**
+  (il costo cade *inversamente* alla colpa: onesto marchiato+esposto, evasore a costo
+  zero). È la svolta nuova della chiusura, NON un recap di P4+P5.
 
 ## Piano 7 — Mossa meta (opzionale, contingente)
 L'articolo dichiara il proprio processo (outline dell'autore, bozza di Claude,
 italiano dell'autore); la scomparsa del marchio via riscrittura genuina
 *dimostra* la tesi invece di essere uno stunt. Contingente sulla decisione del
 giro di ri-traduzione (differita).
+- **Nota legale (Art. 50(4), primaria — vedi `03`):** l'articolo stesso — testo di
+  interesse pubblico sotto controllo editoriale dell'autore — è **esente dall'obbligo
+  di disclosure**. Dichiarare il processo è quindi una **scelta** retorica/etica, non
+  un dovere di legge: rafforza il Piano 7 come mossa volontaria che *dimostra* la tesi.
 
 ---
 

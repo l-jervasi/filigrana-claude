@@ -45,3 +45,37 @@ sappiamo: la configurazione di Claude non è pubblica. La direzione è certa, l'
 E gli A/B test che Anthropic cita misurano la qualità di *una* risposta, non la varietà
 *tra* risposte — due cose diverse. Quanto margine ci sia da spendere, però, dipende da
 quanta varietà c'era in partenza. In certi testi è pochissima. Nel codice, per esempio.
+
+## Codice *(P3, ~380 — primo caso concreto di fragilità)*
+
+Il codice è testo a bassa entropia. In gran parte non c'è scelta: dopo `for (int i = 0;`
+la parentesi va chiusa, `2 + 2` fa `4`, il nome di una variabile appena dichiarata va
+ripetuto identico. Dove non c'è varietà non c'è dado — e senza dado non c'è niente da
+truccare.
+
+Che il marchio sia debole sul codice, però, non conviene prenderlo dalla parola di
+Anthropic: lo dice la letteratura indipendente. Misurato, il segnale sul codice è fiacco
+— pochi token "verdi", z-score di rilevazione piccolo — e la quota marcata scende man
+mano che scende l'entropia. Esiste perfino un filone di ricerca dedicato a marcare gli
+output a bassa entropia: esiste *perché* gli schemi standard, sul codice, non ce la
+fanno. L'esistenza del problema è la prova.
+
+Anthropic la mette così: sul codice l'effetto è trascurabile, il marchio semmai si
+annida nei commenti. Vero — e proprio per questo è una confessione, non una
+rassicurazione. A bassa entropia marchio e distorsione sono la stessa risorsa: o lo
+schema si astiene, e non marca; o forza, e spende la pochissima varietà disponibile
+piegando una scelta che il modello avrebbe fatto diversa — cioè distorce. Non c'è una
+terza via, "un po' di marchio a costo trascurabile": al pavimento dell'entropia,
+*toccarlo lo altera, non toccarlo non lo segna*. Così "effetto trascurabile sul codice"
+e "il codice è a malapena marchiato" dicono la stessa cosa con due facce diverse. E lo
+ammette lo stesso paper originale di SynthID: quando la distribuzione è quasi certa, il
+torneo può solo scegliere i token che il marchio favorisce — cioè contro la scelta
+naturale del modello.
+
+L'identità vale al pavimento. Appena l'entropia sale un po' — il nome di una variabile,
+la formulazione di un commento — torna un margine, e lì il poco marchio che resta si
+concentra. Ma è margine fragile: i commenti si tolgono, i nomi si cambiano, e il segnale
+se ne va senza toccare una riga di logica. Quanto ne resti esattamente nel codice di
+Claude non lo sappiamo — il rilevatore non è pubblico, nessuno l'ha misurato. La
+direzione, però, è chiara, e punta sempre nello stesso verso: dove conta la precisione
+il marchio quasi non c'è; e dov'è, si stacca.

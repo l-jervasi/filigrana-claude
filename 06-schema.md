@@ -125,8 +125,11 @@ AI-detector).
 **Aggancio legge:** Art. 50 chiede *"detectable"* non *"pubblicamente verificabile"*; il
 **Recital 135** *aspira* al corno pubblico — proprio quello irraggiungibile. La legge
 chiede ciò che il meccanismo non può dare.
-**Limite nominato:** Daubert = ⚠️ solo **forma** (segnale non-court-grade usato da chi
-tribunale non è), NON dato, finché non trovata la primaria; oppure si taglia.
+**Non-prova-da-tribunale (localizzato, primarie IT ✅):** civile = **Art. 116 c.p.c.**
+(prudente apprezzamento → poco peso a segnale non validato); penale = **Cozzini** (Cass.
+43786/2010, criteri Daubert-like, giudice "custode del metodo"). Daubert USA di contorno.
+**Inferenza strutturale** (non sentenza); citare **entrambi i fori** (Cozzini penale, lite
+civile). Studio lug-2026 droppato.
 
 ---
 
@@ -167,7 +170,8 @@ trasparenza ma adjudicazione dell'onesto**.
 ## Punti di attenzione per l'autore (fase 3 = tu seghi/riordini)
 
 1. **P7** è opzionale e contingente (ri-traduzione differita) — dentro o fuori?
-2. **Daubert** in P5: dentro come *forma* o tagliato? (⚠️ non ancora alla primaria).
+2. ~~Daubert in P5~~ **RISOLTO (19 ago):** dentro, **localizzato** — Art. 116 c.p.c. +
+   Cozzini (primarie IT ✅), Daubert USA di contorno; studio lug-2026 droppato.
 3. **Il travaso P4→P6** (la conseguenza "marcato oltre il pavimento") — ti convince che
    il *fatto* stia in P4 e la *conseguenza* in P6, o vuoi tutto in uno dei due?
 4. **Consegne tra sezioni** (le frasi-ponte) — sono la mia proposta di sequenza; è la

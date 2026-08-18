@@ -208,14 +208,27 @@ non fatto).**
   nulla da rilevare). Costo della verifica di nuovo **inverso alla colpa**.
   Riga-cerniera: *"trasparenza che non è pubblica non è trasparenza — è adjudicazione
   istituzionale dell'onesto."*
-- **Daubert:** studio forense (lug 2026) — il watermarking di testo attuale non
-  supera lo standard Daubert (non prova utilizzabile in tribunale). ⚠️ **DA
-  RI-VERIFICARE ALLA PRIMARIA** (riporto secondario). Uso solo come *forma* del
-  punto (segnale non-court-grade usato da chi tribunale non è), NON come dato,
-  finché non trovo la primaria; oppure taglio.
+- **Non prova da tribunale (localizzato — primarie confermate 19 ago):** il segnale
+  del detector non è *court-grade*, e vale per il lettore **italiano/europeo**, non
+  solo USA.
+  - **Civile** (dove vive la lite su paternità/copyright) — **Art. 116 c.p.c.**:
+    *"il giudice deve valutare le prove secondo il suo prudente apprezzamento"* →
+    nessun gate lo esclude, ma valutazione libera e nessuna gerarchia → un giudice
+    prudente dà **poco peso** a un segnale non validato, a tasso d'errore ignoto.
+  - **Penale** — **Cass. pen. sez. IV n. 43786/2010 (*Cozzini*)**: criteri Daubert-like
+    (verificabilità/falsificabilità · peer review · tasso d'errore · accettazione
+    generale · indipendenza dell'esperto), giudice **"custode del metodo scientifico"**
+    → il marchio inciampa su tutti.
+  - **Daubert** (USA, 1993) resta come *analogo di contorno*.
+  - **Onestà:** Cozzini è **penale**, la lite è **civile** → citare **entrambi i
+    fori**, non spacciare l'uno per l'altro; "il marchio fallirebbe i criteri" è
+    **inferenza strutturale** (applico i criteri alle proprietà note), NON una
+    sentenza. *(Studio forense lug-2026: DROPPATO — si ragiona dai criteri confermati,
+    non serve un dato di seconda mano.)*
 **Stato: detector-non-pubblico confermato (primaria); trilemma logicamente stretto
 + agganciato ad Art. 50 (primaria); verifica=evasione = prezzo dell'intrinseco
-(spina). Daubert ancora da riverificare.**
+(spina). Non-prova-da-tribunale su primarie IT (Art. 116 c.p.c. + Cozzini); Daubert
+USA di contorno; studio lug-2026 droppato.**
 
 ## Piano 6 — Sintesi / tesi *(portante — chiusura)*
 - Il marchio non ti espropria né ti incolpa da solo: rende **visibile quanto ci

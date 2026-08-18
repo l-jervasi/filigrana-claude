@@ -87,9 +87,10 @@ ripido, non identità, dove il residuo si concentra (rimovibile: comment-removal
 - **Gira (scelta, non obbligo):** e non era nemmeno imposto così. Art. 50 è **neutro**;
   il **Recital 133** ammette esplicitamente *metadata / cryptographic methods for
   provenance*; per il testo il deployer deve solo **disclosure**, ed è **esente** sotto
-  controllo editoriale (50(4)). Vie più leggere c'erano: hanno scelto l'intrinseco.
-  *(La conseguenza "→ marcato oltre il pavimento = marchiatura non trasparenza" si
-  TRATTIENE per P6 — travaso.)*
+  controllo editoriale (50(4)). Vie più leggere c'erano — una nota, un checksum: hanno
+  scelto un marchio **incorporato**. **Non è conformità, è marcatura** — il punto chiude
+  **qui**, in un pugno solo (decisione 3: **niente travaso**; P6 lo *richiama*, non lo
+  sposta).
 
 **Regge su:** claim 1 (Berne/USC/Feist/Dir ✅ + Thaler/USCO ✅~) + claim 2 (Art. 50 +
 Recital 133/134 ✅).
@@ -138,8 +139,9 @@ civile). Studio lug-2026 droppato.
 **Movimento:**
 - **Riprende la posta piantata all'apertura:** ora il lettore ha i pezzi. Il marchio
   non ti espropria né ti incolpa (P4 sostanziale): rende **visibile quanto ci sei tu**.
-- **Il travaso (da P4):** e l'hanno **scelto** — marcano **oltre il pavimento** che la
-  legge chiede. Marchiatura, non mera trasparenza.
+- **Richiamo (NON travaso) del punto-scelta di P4:** un inciso — *"e non gliel'aveva
+  nemmeno chiesto nessuno"* — senza ri-argomentare. La svolta di P6 non è questa: è
+  l'asimmetria (sotto).
 - **La svolta nuova (asimmetria della conseguenza):** il costo cade **inversamente alla
   colpa**, sui tre assi già visti — marcatura (l'onesto interrogato), evasione (gratis
   per chi aggira), verifica (adjudica il conforme). Non "ti rubano il testo": un onere
@@ -156,23 +158,26 @@ trasparenza ma adjudicazione dell'onesto**.
 
 ## 6 · Meta — P7 — ~100 · *opzionale, contingente*
 
-- L'articolo **dichiara il proprio processo** (outline dell'autore, bozza di Claude,
-  italiano dell'autore); la scomparsa del marchio via riscrittura genuina **dimostra**
-  la tesi invece di essere uno stunt.
-- **Nota legale (chiude il cerchio col P4):** l'articolo stesso — testo di interesse
-  pubblico sotto controllo editoriale dell'autore — è **esente** dall'obbligo di
-  disclosure (50(4)). Dichiararlo è **scelta**, non dovere: mossa volontaria che prova
-  la tesi.
-- Contingente sulla decisione del giro di ri-traduzione (differita).
+- **(a) Nota di disclosure — DENTRO ora (breve):** l'articolo dichiara com'è fatto
+  (outline dell'autore, bozza Claude, italiano dell'autore). È **esente** dall'obbligo
+  (50(4), controllo editoriale) ma **sceglie** di dichiarare → *pratica* la tesi
+  (l'onesto che documenta sé stesso). Mini-payload vero, chiude il cerchio col P4.
+- **(b) Meta-dimostrazione — RINVIATA e CONDIZIONATA:** "il marchio sparisce perché ho
+  riscritto = prova la tesi" vale **solo se** l'italiano finale è **riscrittura genuina**
+  dell'autore (che stripa il marchio). Se fosse bozza Claude limata, sarebbe **falso** →
+  si scrive solo dopo la decisione ri-traduzione (differita), e come **una riga
+  guadagnata**, non una sezione che fa concorrenza a P6.
 
 ---
 
 ## Punti di attenzione per l'autore (fase 3 = tu seghi/riordini)
 
-1. **P7** è opzionale e contingente (ri-traduzione differita) — dentro o fuori?
+1. ~~P7 dentro/fuori~~ **RISOLTO (19 ago):** (a) nota disclosure **dentro ora**;
+   (b) meta-dimostrazione **rinviata/condizionata** alla riscrittura genuina.
 2. ~~Daubert in P5~~ **RISOLTO (19 ago):** dentro, **localizzato** — Art. 116 c.p.c. +
    Cozzini (primarie IT ✅), Daubert USA di contorno; studio lug-2026 droppato.
-3. **Il travaso P4→P6** (la conseguenza "marcato oltre il pavimento") — ti convince che
-   il *fatto* stia in P4 e la *conseguenza* in P6, o vuoi tutto in uno dei due?
-4. **Consegne tra sezioni** (le frasi-ponte) — sono la mia proposta di sequenza; è la
-   parte che più facilmente vorrai riordinare.
+3. ~~Travaso P4→P6~~ **RISOLTO (19 ago):** **niente travaso** — P4 completa il
+   punto-scelta (pugno solo), P6 lo **richiama** in un inciso; la svolta di P6 è
+   l'asimmetria.
+4. **Consegne tra sezioni** (le frasi-ponte) — da giudicare su **prosa**: apertura
+   scritta come campione in `07-bozza.md`.

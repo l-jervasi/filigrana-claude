@@ -89,19 +89,33 @@ Claude non pubblicata). È il claim falsificabile → il più forte.**
   distorsione *per bit* sale. Morde nella fascia **intermedia** (naming, scelte
   strutturali minori, wording dei commenti), non all'estremo quasi-deterministico
   (`2+2=4`, dove marchio e distorsione → 0).
-- **L'accoppiamento (il grimaldello):** a bassa entropia non puoi avere insieme
-  distorsione trascurabile E marcatura significativa — stessa risorsa. O lo
-  schema **si astiene** (no marchio, no distorsione) o **forza** (marchio,
-  distorsione sproporzionata). Quindi "effetto trascurabile sul codice" è
-  *logicamente la stessa frase* di "il codice è a malapena marchiato": la
-  rassicurazione su un asse è una confessione sull'altro.
+- **L'accoppiamento (il grimaldello) — cita-e-ribalta della loro rassicurazione:**
+  la premessa *"effetto trascurabile sul codice"* è **di Anthropic** (post 14 ago),
+  non nostra; il "≡" è la mossa che la ribalta. A bassa entropia marchio e
+  distorsione sono la **stessa risorsa**: o lo schema **si astiene** (no marchio,
+  no distorsione) o **forza** — e siccome l'entropia nel codice è già bassissima,
+  forzare spende la frazione dominante della poca entropia → la spinge al
+  quasi-deterministico, **la azzera**. Non c'è il "poco marchio a poco costo": il
+  paradosso è che *toccarlo lo collassa, non toccarlo non lo marca.*
+- **Backing primaria (Nature p. 820, in `03`):** a entropia molto bassa il torneo
+  *"can then only choose tokens that score more highly under the g functions"* —
+  marcare = scegliere **contro** la scelta quasi-certa dell'LLM = distorsione.
+  Ammissione della fonte interessata: il binario non è retorica nostra.
+- **Quindi, ancorato al pavimento di entropia** (il grosso del codice): *"effetto
+  trascurabile"* ≡ *"a malapena marchiato"* — la rassicurazione su un asse **è**
+  una confessione sull'altro. NB accuratezza: l'identità è stretta **al pavimento**;
+  nella tasca a entropia localmente più alta (naming, scelte minori) è **tradeoff
+  ripido, non identità** — ed è lì che il residuo di marchio si concentra. Nitidezza
+  del binario ∝ quanto l'entropia è bassa.
 - Il residuo si concentra in **commenti/naming**, rimovibili (comment-removal è
   una vulnerabilità nota).
 - **Aperto:** quale comportamento (astensione vs forzatura) sceglie la config di
   Claude non è pubblicato; magnitudo esatta per Claude non misurata (detector
   non pubblico).
-**Stato: direzione solida (letteratura indipendente); entità aperta; argomento
-dell'accoppiamento logicamente stretto.**
+**Stato: direzione solida (letteratura indipendente + ammissione Nature p. 820);
+entità aperta; accoppiamento logicamente stretto **al pavimento di entropia**
+(cita-e-ribalta della "trascurabile" di Anthropic); fascia naming = tradeoff
+ripido, non identità.**
 
 ## Piano 4 — Legale (asimmetria copyright↔responsabilità) *(portante, rivisto)*
 - **Responsabilità:** cade sempre sull'umano che pubblica (l'IA non è soggetto

@@ -224,7 +224,10 @@ non fatto).**
 - L'obbligo grava **tutto sull'onesto**: modello open = zero marchio, riscrittura
   vera = zero marchio, solo l'utente passivo resta marchiato. Aggirarlo è gratis.
 - Un sistema di trasparenza che punge l'onesto e sfiora chi lo vuole aggirare.
-  L'esatto rovescio del panico del TikTok.
+  L'esatto **rovescio dell'allarme popolare**: non un *furto* del tuo testo, ma un
+  *onere* su chi non lo merita. *(Scelta (b), 19 ago: sganciato dal video TikTok
+  — mai sourceato — e dal Piano 0, tagliabile. La chiusura regge da sola; il
+  rovescio è di sostanza: natura (furto→onere) + incidenza (tutti→l'onesto).)*
 - **Base legale (Art. 50, primaria — vedi `03`):** per il testo la legge chiede
   *disclosure* (una nota), non marcatura, ed **esenta** chi rivede con responsabilità
   editoriale; Anthropic marca comunque, **oltre il pavimento**. Chiusura sviluppata in

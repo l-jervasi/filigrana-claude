@@ -99,11 +99,18 @@ Pavimento = onestà: i tre portanti (2, 4, 6) hanno una sfumatura obbligatoria
 (magnitudo + controparte + buco), ~400-500 parole l'uno; sotto le ~2.000 devi
 tagliare un intero argomento, non limare. Quindi il budget è una **funzione di
 selezione**: ~2.500 porta bene *tre* argomenti, non sei. Budget per piano
-(rivisto col baricentro B, sotto): apertura+attrito ~300 *(il gancio È già P2)* ·
-P2 oltre il gancio ~150 · P3/codice ~350 · legale P4 ~450 · verifica P5 ~350 ·
-sintesi P6 ~300 · meta ~100 → totale ~2.000-2.200, dentro banda con margine. Il
-tecnico scende rispetto alla versione A (~1.000); il peso passa a P4+P6. Se una
-sezione sfonda, cede un'altra, non cresce il totale.
+(**ripesato fase 2b, 19 ago**, contro i claim fissati in `05`): apertura+attrito
+~280 *(il gancio È già P2)* · P2 oltre il gancio ~150 *(thin, disciplina baricentro
+B)* · P3/codice ~380 · **legale P4 ~600** · verifica P5 ~420 · sintesi P6 ~350 ·
+meta ~100 → **totale ~2.280**, dentro banda (2.200-2.800) con margine fino a 2.800.
+Il tecnico scende rispetto alla versione A (~1.000); il peso passa a P4+P6.
+**P4 è la sezione più grande** (porta claim 1 inversione-onere + claim 2
+scelta-non-obbligo + base legale confermata) → conferma baricentro B; **resta unica**
+(spezzarla la diluisce). **Travaso:** la *conseguenza* di claim 2 ("marcato oltre il
+pavimento = marchiatura non trasparenza") migra da P4 alla **chiusura P6** — così P6
+guadagna la svolta e P4 resta sui ~600. NB: la regola "portanti ~400-500 l'uno" vale
+per argomento (2,4,6); per *parole* il baricentro B fa P2 biglietto magro (~150) e
+P4 il peso (~600). Se una sezione sfonda, cede un'altra, non cresce il totale.
 
 ## Baricentro — perché B (tecnico = biglietto magro), con soglia sdoppiata
 **Decisione.** Centro di gravità = **B**: il tecnico (P2/P3) fa il minimo per

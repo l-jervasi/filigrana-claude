@@ -79,11 +79,22 @@ già interamente sostenibile con ciò che abbiamo.
 
 ---
 
-## Peso parole — DA RIPESARE (prossimo passo, fase 2b)
+## Peso parole — RIPESATO (fase 2b, 19 ago)
 
-Banda **~2.500** (2.200–2.800). Budget per-Piano in `04` ("Lunghezza", baricentro B):
-apertura+attrito ~300 · P2 oltre il gancio ~150 · P3/codice ~350 · P4 legale ~450 ·
-P5 verifica ~350 · P6 sintesi ~300 · meta ~100 → ~2.000-2.200.
-**Da riverificare "per sicurezza":** i claim sviluppati dopo quel budget (P4 base
-legale + Art. 50/Recital; P5 trilemma) ci stanno ancora? E quanto spazio per claim,
-dato che ora sono fissati. → alimenta la fase 3 (schema).
+Banda **~2.500** (2.200–2.800). Budget per-Piano ripesato contro i claim fissati:
+
+| Sezione | Parole | Claim |
+|---|---|---|
+| Apertura + attrito | ~280 | gancio (= claim 5) |
+| P2 oltre il gancio | ~150 | claim 5 *(thin — disciplina baricentro B)* |
+| P3 codice | ~380 | claim 6 + 7 |
+| **P4 legale** | **~600** | claim 1 + 2 *(sezione più grande, unica)* |
+| P5 verifica | ~420 | claim 3 + 4 |
+| P6 sintesi | ~350 | tesi T + travaso metà-P6 di claim 2 |
+| meta (P7) | ~100 | opzionale |
+| **Totale** | **~2.280** | dentro banda, margine fino a 2.800 |
+
+**Esiti:** (1) **ci sta senza tagliare claim** (~2.280 su tetto 2.800); (2) **P4 unica
+~600** = conferma baricentro B (P4 il peso, P2 il più magro); (3) **travaso**: la
+*conseguenza* di claim 2 ("marcato oltre il pavimento = marchiatura non trasparenza")
+va alla chiusura **P6**. → pronto per la **fase 3 (schema)**.

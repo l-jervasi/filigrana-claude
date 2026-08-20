@@ -91,21 +91,20 @@ Claude non pubblicata). È il claim falsificabile → il più forte.**
   (`2+2=4`, dove marchio e distorsione → 0).
 - **L'accoppiamento (il grimaldello) — cita-e-ribalta della loro rassicurazione:**
   la premessa *"effetto trascurabile sul codice"* è **di Anthropic** (post 14 ago),
-  non nostra; il "≡" è la mossa che la ribalta. A bassa entropia marcare il codice e
-  lasciarlo intatto sono la **stessa cosa**: per imprimere un segnale il torneo dovrebbe
-  scegliere un token che il modello non avrebbe scelto (distorcere); ma la config
-  *non distorsiva* **non forza** — dove non c'è un'alternativa "verde" tiene il token
-  naturale e non marca. **CORREZIONE (overstatement colto dall'autore 21 ago):** NON
-  "forzare collassa/azzera la poca entropia", NON "toccarlo lo collassa" — al pavimento
-  **non tocca affatto**. E dire "effetto trascurabile" *dichiara* proprio quel
-  comportamento astenuto → commette Anthropic al **debole**: rassicurazione = confessione
-  via **nessun segnale**, non via distorsione.
-- **Backing primaria (Nature p. 820, in `03`):** a entropia molto bassa il torneo
-  *"can then only choose tokens that score more highly under the g functions"* → letto
-  **giusto**: a bassa entropia c'è **poco su cui lavorare** → marchio **debole** (NON
-  "forza contro la scelta naturale": quello sarebbe la config *distorsiva*; la
-  non-distorsiva si astiene). Ammissione utile: il *debole-sul-codice* non è retorica
-  nostra.
+  non nostra; il "≡" è la mossa che la ribalta. Sotto **chiave fissa**, dove restano
+  poche parole plausibili e una è "verde", il torneo **spinge la scelta verso quella**
+  (50/50 → ~25/75 già col torneo minimo a 2; di più con 30 layer): quella spinta **È** il
+  marchio ED **è uno scarto** da ciò che il modello avrebbe scelto. Dove la parola è
+  obbligata (sintassi, `2+2=4`) non c'è verde e non succede niente. Quindi **mark ⟺
+  scarto**: o il codice porta scelte da marcare, e allora quelle scelte gliele pieghi; o
+  non le porta, e il marchio non c'è → *"effetto trascurabile" ≡ "a malapena marchiato"*.
+  ⚠️ **Bounded** (corretto 21 ago, doppio giro): NON "collassa/azzera" (troppo forte) NÉ
+  "non tocca mai" (troppo debole).
+- **Deduzione, NON assunzione (Nature p. 820 + chiave fissa):** il tilt **non si assume
+  dalla config** (distorsiva vs non — non pubblicata): si **deduce** — la "non distorsione"
+  è media su tutte le chiavi, ma la chiave è **una, fissa**, e sotto quella l'output è
+  tiltato. Nature p. 820 (*"can only choose tokens that score more highly under the g
+  functions"*) conferma il **debole** (poco su cui lavorare), non il "forza".
 - **Quindi, ancorato al pavimento di entropia** (il grosso del codice): *"effetto
   trascurabile"* ≡ *"a malapena marchiato"* — la rassicurazione su un asse **è**
   una confessione sull'altro. NB accuratezza: l'identità è stretta **al pavimento**;

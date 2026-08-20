@@ -67,15 +67,19 @@ L'esistenza del problema è la prova.
 
 Anthropic la mette così: sul codice l'effetto è trascurabile, il marchio semmai si
 annida nei commenti. Vero — e proprio per questo è una confessione più che una
-rassicurazione. Perché a bassa entropia marcare il codice e lasciarlo intatto sono la
-stessa cosa vista da due lati. Per imprimere un segnale il torneo dovrebbe scegliere un
-token che il modello non avrebbe scelto; ma quando la parola giusta è quasi obbligata,
-un'alternativa "verde" spesso non esiste nemmeno tra i candidati. E dove non esiste, il
-sistema non forza: tiene il token naturale e non marca. Non ti rovina il codice,
-d'accordo — ma è esattamente lo stesso motivo per cui non lo marca. "Effetto trascurabile
-sul codice" e "il codice è a malapena marchiato", lì, sono la stessa frase. Lo ammette lo
-stesso paper originale di SynthID: quando la distribuzione è quasi certa, al torneo resta
-pochissimo su cui lavorare.
+rassicurazione. Perché marcare, a bassa entropia, vuol dire una cosa precisa: dove
+restano due o tre parole plausibili e una è "verde", il torneo spinge la scelta verso
+quella, sempre nello stesso verso. E non di poco — una scelta che il modello lascerebbe a
+testa o croce diventa, sotto la chiave, tre volte su quattro la parola marcata. Quella
+spinta è il marchio, ed è insieme uno scarto da ciò che il modello avrebbe prodotto da
+solo. Solo dove la parola è davvero obbligata — la sintassi, `2+2` che fa `4` — non c'è
+nessun verde tra cui spingere, e allora niente. I due casi si tengono: o il codice porta
+abbastanza scelte da marcare, e allora quelle scelte gliele stai piegando; o non le
+porta, e il marchio non c'è. "Effetto trascurabile sul codice" e "il codice è a malapena
+marchiato" sono la stessa frase: se davvero non ti tocca il codice, è perché non lo sta
+marcando. E non serve indovinare quale configurazione usi Claude: la garanzia di "non
+distorsione" vale in media su tutte le chiavi, ma qui la chiave è una sola e fissa — e
+sotto quella, la spinta c'è.
 
 L'identità vale al pavimento. Appena l'entropia sale un po' — il nome di una variabile,
 la formulazione di un commento — torna un margine, e lì il poco marchio che resta si

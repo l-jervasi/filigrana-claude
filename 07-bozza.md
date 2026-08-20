@@ -202,3 +202,14 @@ sull'onesto.
 È il rovescio esatto dell'allarme che ha accompagnato tutto questo. Non ti stanno rubando
 il testo. Ti stanno rendendo interrogabile — proprio te, che l'hai scritto — su quanto è
 davvero tuo, mentre a chi ha barato non chiedono niente.
+
+## Nota *(P7, ~100 — disclosure; pratica la tesi)*
+
+Due parole su come è fatto questo pezzo, perché il punto le riguarda. L'impianto e le
+tesi sono mie; una prima stesura l'ha scritta Claude, sulla mia traccia; l'italiano che
+stai leggendo è mio, riscritto riga per riga. La cronologia di queste versioni — bozze,
+commit, correzioni — è tracciata: è la tracciabilità di cui parla la parte legale,
+prodotta come sottoprodotto della scrittura. La legge non me lo chiedeva: un testo con
+revisione umana e responsabilità editoriale è esente dall'obbligo di dichiarazione. Lo
+dichiaro lo stesso. È esattamente ciò che l'articolo sostiene: l'onesto documenta sé
+stesso — per scelta, non per obbligo.

@@ -91,16 +91,21 @@ Claude non pubblicata). È il claim falsificabile → il più forte.**
   (`2+2=4`, dove marchio e distorsione → 0).
 - **L'accoppiamento (il grimaldello) — cita-e-ribalta della loro rassicurazione:**
   la premessa *"effetto trascurabile sul codice"* è **di Anthropic** (post 14 ago),
-  non nostra; il "≡" è la mossa che la ribalta. A bassa entropia marchio e
-  distorsione sono la **stessa risorsa**: o lo schema **si astiene** (no marchio,
-  no distorsione) o **forza** — e siccome l'entropia nel codice è già bassissima,
-  forzare spende la frazione dominante della poca entropia → la spinge al
-  quasi-deterministico, **la azzera**. Non c'è il "poco marchio a poco costo": il
-  paradosso è che *toccarlo lo collassa, non toccarlo non lo marca.*
+  non nostra; il "≡" è la mossa che la ribalta. A bassa entropia marcare il codice e
+  lasciarlo intatto sono la **stessa cosa**: per imprimere un segnale il torneo dovrebbe
+  scegliere un token che il modello non avrebbe scelto (distorcere); ma la config
+  *non distorsiva* **non forza** — dove non c'è un'alternativa "verde" tiene il token
+  naturale e non marca. **CORREZIONE (overstatement colto dall'autore 21 ago):** NON
+  "forzare collassa/azzera la poca entropia", NON "toccarlo lo collassa" — al pavimento
+  **non tocca affatto**. E dire "effetto trascurabile" *dichiara* proprio quel
+  comportamento astenuto → commette Anthropic al **debole**: rassicurazione = confessione
+  via **nessun segnale**, non via distorsione.
 - **Backing primaria (Nature p. 820, in `03`):** a entropia molto bassa il torneo
-  *"can then only choose tokens that score more highly under the g functions"* —
-  marcare = scegliere **contro** la scelta quasi-certa dell'LLM = distorsione.
-  Ammissione della fonte interessata: il binario non è retorica nostra.
+  *"can then only choose tokens that score more highly under the g functions"* → letto
+  **giusto**: a bassa entropia c'è **poco su cui lavorare** → marchio **debole** (NON
+  "forza contro la scelta naturale": quello sarebbe la config *distorsiva*; la
+  non-distorsiva si astiene). Ammissione utile: il *debole-sul-codice* non è retorica
+  nostra.
 - **Quindi, ancorato al pavimento di entropia** (il grosso del codice): *"effetto
   trascurabile"* ≡ *"a malapena marchiato"* — la rassicurazione su un asse **è**
   una confessione sull'altro. NB accuratezza: l'identità è stretta **al pavimento**;

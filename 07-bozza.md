@@ -66,16 +66,16 @@ bassa entropia: esiste *perché* gli schemi standard, sul codice, non ce la fann
 L'esistenza del problema è la prova.
 
 Anthropic la mette così: sul codice l'effetto è trascurabile, il marchio semmai si
-annida nei commenti. Vero — e proprio per questo è una confessione, non una
-rassicurazione. A bassa entropia marchio e distorsione sono la stessa risorsa: o lo
-schema si astiene, e non marca; o forza, e spende la pochissima varietà disponibile
-piegando una scelta che il modello avrebbe fatto diversa — cioè distorce. Non c'è una
-terza via, "un po' di marchio a costo trascurabile": al pavimento dell'entropia,
-*toccarlo lo altera, non toccarlo non lo segna*. Così "effetto trascurabile sul codice"
-e "il codice è a malapena marchiato" dicono la stessa cosa con due facce diverse. E lo
-ammette lo stesso paper originale di SynthID: quando la distribuzione è quasi certa, il
-torneo può solo scegliere i token che il marchio favorisce — cioè contro la scelta
-naturale del modello.
+annida nei commenti. Vero — e proprio per questo è una confessione più che una
+rassicurazione. Perché a bassa entropia marcare il codice e lasciarlo intatto sono la
+stessa cosa vista da due lati. Per imprimere un segnale il torneo dovrebbe scegliere un
+token che il modello non avrebbe scelto; ma quando la parola giusta è quasi obbligata,
+un'alternativa "verde" spesso non esiste nemmeno tra i candidati. E dove non esiste, il
+sistema non forza: tiene il token naturale e non marca. Non ti rovina il codice,
+d'accordo — ma è esattamente lo stesso motivo per cui non lo marca. "Effetto trascurabile
+sul codice" e "il codice è a malapena marchiato", lì, sono la stessa frase. Lo ammette lo
+stesso paper originale di SynthID: quando la distribuzione è quasi certa, al torneo resta
+pochissimo su cui lavorare.
 
 L'identità vale al pavimento. Appena l'entropia sale un po' — il nome di una variabile,
 la formulazione di un commento — torna un margine, e lì il poco marchio che resta si

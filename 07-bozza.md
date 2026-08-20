@@ -131,3 +131,44 @@ l'abbiano fatto per robustezza — la legge la incoraggia, "per quanto tecnicame
 possibile". Ma la robustezza *è* esattamente ciò che rende il marchio imposto invece che
 scelto: non è più conformità, è marcatura. La domanda ovvia, a questo punto, è un'altra:
 e verificarlo, almeno, si può?
+
+## Verifica *(P5, ~420)*
+
+Il detector, per ora, non c'è: Anthropic dice "presto". Ma il ritardo non è un dettaglio
+tecnico, è il sintomo di un problema senza soluzione pulita. Perché con una filigrana
+*verificare* e *aggirare* sono la stessa mossa. Il rilevatore è la funzione che, con la
+chiave, riconosce l'impronta; darlo al pubblico perché ciascuno controlli significa
+consegnare a chiunque l'oracolo per limare il testo finché l'impronta sparisce. È il
+prezzo dell'aver scelto un marchio *dentro* il testo: una firma staccata la verifichi
+senza che questo aiuti a falsificarla, ma quella muore al primo copia-incolla; il marchio
+intrinseco sopravvive, e proprio per questo non può mostrarsi.
+
+Da lì un trilemma senza uscita. Detector **chiuso**, tenuto da Anthropic: il pubblico non
+verifica nulla, deve fidarsi — e la trasparenza che era il fine si riduce a un atto di
+fede. Detector **aperto**: chiunque verifica, e chiunque aggira — addio robustezza.
+Detector **semi-aperto**, dato solo a piattaforme "fidate" — scuole, datori, editori: la
+verifica diventa un privilegio. Loro hanno il verdetto su di te; tu no. Nessuna delle tre
+dà ciò per cui il sistema esisteva: una trasparenza *pubblica*.
+
+E la terza è la più probabile, e la più insidiosa, perché quel verdetto non regge dove
+conta. In Italia una lite sulla paternità è civile, e lì il giudice pesa le prove
+"secondo il suo prudente apprezzamento": un segnale non validato, dal tasso d'errore
+ignoto, vale poco. In sede penale la Cassazione, con la sentenza Cozzini, ha fatto propri
+i criteri di affidabilità del metodo scientifico — testabilità, tasso d'errore,
+revisione, accettazione — con il giudice "custode del metodo": criteri che il marchio, a
+oggi, non supererebbe. È il gemello italiano dello standard americano Daubert, e la
+conclusione è la stessa: un segnale che un tribunale non prenderebbe per buono, usato da
+chi tribunale non è, per giudicare le persone.
+
+La difesa esiste, ed è onesta: il rilevatore nasce come etichetta su scala di
+piattaforma, non come perizia sul singolo. Vero. Ma il danno non è l'uso previsto, è il
+riuso — la scuola che segnala il tema, il datore che scarta la relazione — e con i
+rilevatori di IA esistenti è già la norma. E la legge stessa lo insegue: il regolamento
+europeo auspica che i meccanismi di rilevazione siano "accessibili", così che il pubblico
+possa distinguere. Chiede, cioè, esattamente il corno che per una filigrana è
+irraggiungibile.
+
+Resta il fatto più semplice: chi vuole liberarsene lo fa gratis — un modello aperto non
+l'ha mai marchiato, una riscrittura vera lo dissolve. Il detector, quando arriverà, saprà
+dire "questo l'ha scritto Claude" a chi non ha fatto nulla per nasconderlo, e tacerà su
+chi l'ha riscritto. Giudica chi si è adeguato, non chi ha aggirato.

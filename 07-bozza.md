@@ -61,12 +61,12 @@ vere restano — nei nomi, nella struttura — ma isolate, in mezzo a lunghi tra
 Meno bivi per token che nella prosa: meno appigli per il marchio. Non zero — solo di
 meno.
 
-Che il marchio sia debole sul codice, però, non è la parola di Anthropic: è misurato. La
-letteratura indipendente — peer-reviewed, su codice vero — lo mostra: la rilevazione che
-sulla prosa becca il testo quasi sempre, sul codice scivola verso i due terzi dei casi. A
-bassa entropia un token "verde" è raro, e restano poche posizioni in cui il marchio può
-incidere. Non a caso esiste un intero filone di ricerca dedicato a marcare gli output a
-bassa entropia: esiste *perché* gli schemi standard, sul codice, non ce la fanno.
+Che il marchio sia debole sul codice, però, non è la parola di Anthropic: è misurato. In
+un test peer-reviewed su codice vero, un rilevatore standard che sulla prosa riconosce il
+testo marchiato quasi sempre — il 99% dei casi — sul codice cala al 68%, a parità di falsi
+positivi. A bassa entropia un token "verde" è raro, e restano poche posizioni in cui il
+marchio può incidere. Non a caso esiste un intero filone di ricerca dedicato a marcare gli
+output a bassa entropia: esiste *perché* gli schemi standard, sul codice, non ce la fanno.
 L'esistenza del problema è la prova.
 
 Anthropic la mette così: sul codice l'effetto è trascurabile, il marchio semmai si

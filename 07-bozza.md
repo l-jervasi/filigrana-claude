@@ -172,3 +172,33 @@ Resta il fatto più semplice: chi vuole liberarsene lo fa gratis — un modello 
 l'ha mai marchiato, una riscrittura vera lo dissolve. Il detector, quando arriverà, saprà
 dire "questo l'ha scritto Claude" a chi non ha fatto nulla per nasconderlo, e tacerà su
 chi l'ha riscritto. Giudica chi si è adeguato, non chi ha aggirato.
+
+## Chiusura *(P6, ~350 — salda il loop dell'apertura)*
+
+Adesso i pezzi stanno insieme. Il marchio non ti espropria e non ti incolpa: quello
+resta vero, l'abbiamo visto. Fa qualcosa di più sottile — rende visibile quanto, in ciò
+che pubblichi, ci sei tu. E su quella visibilità si regge tutto il resto.
+
+Guardala da vicino e vedrai che il costo cade sempre dalla stessa parte, la parte
+sbagliata. Chi scrive di suo e si fa aiutare a rifinire porta il marchio, e con esso la
+domanda su quanto sia davvero suo. Chi vuole sottrarsi non paga niente: un modello aperto
+non lo marchia, una riscrittura vera lo cancella. E quando il detector arriverà, darà il
+suo verdetto su chi non si è nascosto, non su chi si è nascosto bene. Marcatura,
+evasione, verifica: tre assi diversi, un solo verso. Il peso grava sull'onesto e scivola
+via da chi aggira. È un sistema di trasparenza i cui costi sono inversamente
+proporzionali alla colpa.
+
+Si obietterà che l'utente onesto è proprio il destinatario voluto: rendere leggibile
+l'assistenza dell'IA è lo scopo dichiarato, non un effetto collaterale. È vero, ed è
+esattamente qui che la trasparenza si rovescia in altro. Un conto è dichiarare — una
+nota, che l'onesto avrebbe messo comunque e che la legge gli lasciava mettere. Altro è un
+marchio che gli si attacca addosso a prescindere, che sopravvive alla sua volontà, e che
+serve a farlo interrogare da chi tribunale non è. Non gli avevano nemmeno chiesto di
+marcare così: hanno scelto lo strumento che grava di più, sul soggetto che si difende di
+meno. Non è la trasparenza che diventa sorveglianza per malizia; è che la sua forma — un
+marchio imposto, e non pubblicamente verificabile — la rende, di fatto, un giudizio
+sull'onesto.
+
+È il rovescio esatto dell'allarme che ha accompagnato tutto questo. Non ti stanno rubando
+il testo. Ti stanno rendendo interrogabile — proprio te, che l'hai scritto — su quanto è
+davvero tuo, mentre a chi ha barato non chiedono niente.

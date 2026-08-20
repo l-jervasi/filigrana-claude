@@ -77,12 +77,16 @@ Claude non pubblicata). È il claim falsificabile → il più forte.**
 > Ruolo: NON digressione tecnica ma **primo caso concreto di fragilità** → è già
 > mezza dimostrazione di P6. Qui il tecnico È argomento, quindi merita le ~350.
 > *(rivisto due volte)*
-- **Asse visibilità:** il marchio è empiricamente **debole** sul codice a bassa
-  entropia — *letteratura indipendente*, non parola di Anthropic: la quota di
-  token marcati cala con l'entropia, z-score di rilevazione piccolo; ed esiste
-  un intero filone ("Can we Watermark Low-Entropy Outputs?", HeavyWater/
-  SimplexWater, schemi code-specifici) *proprio perché* gli schemi standard sono
-  deboli sul codice. L'esistenza del problema è la prova.
+- **Asse visibilità:** il marchio è empiricamente **più debole (NON assente)** sul
+  codice. **Calibrazione (obiezione dell'autore 21 ago):** il codice NON è entropia
+  quasi-zero — la libertà (nomi, forme, algoritmi) è reale ma è del **programma**, non
+  del **token**: la filigrana agisce per-token, e lì i bivi sono radi (nome scelto 1 volta
+  poi ripetuto forzato a ogni uso; struttura = 1 bivio poi sintassi obbligata). Per token
+  **meno appigli che nella prosa, ma non zero.** Misurato (ACL 2024, `2403.13485`, su
+  **KGW**): spike-entropy codice ~0,6 vs news ~0,8; rilevazione **~68% TPR@1%FPR sul
+  codice vs ~99,6% prosa**. *Letteratura indipendente*, non parola di Anthropic; ed esiste
+  un filone (HeavyWater/SimplexWater, schemi code-specifici) *proprio perché* gli schemi
+  standard sono deboli sul codice. **Debole, non nullo** — un 68% non è zero.
 - **Asse entropia/distorsione** *(aggiunta dell'autore):* il tradeoff
   rilevabilità↔distorsione è **peggiore** a bassa entropia — per estrarre un
   segnale devi consumare una frazione maggiore della poca entropia, quindi la

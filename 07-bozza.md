@@ -52,10 +52,14 @@ quanta varietà c'era in partenza. In certi testi è pochissima. Nel codice, per
 
 ## Codice *(P3, ~380 — primo caso concreto di fragilità)*
 
-Il codice è testo a bassa entropia. In gran parte non c'è scelta: dopo `for (int i = 0;`
-la parentesi va chiusa, `2 + 2` fa `4`, il nome di una variabile appena dichiarata va
-ripetuto identico. Dove non c'è varietà non c'è dado — e senza dado non c'è niente da
-truccare.
+Il codice sembra pieno di scelte, e in parte lo è: una variabile puoi chiamarla in mille
+modi, lo stesso calcolo lo scrivi in dieci forme, lo stesso problema lo risolvi con
+algoritmi diversi. Ma la filigrana non lavora sul programma, lavora un token alla volta —
+e lì la libertà è più rada. Il nome che scegli una volta va poi ripetuto identico a ogni
+uso; dopo `for (int i = 0;` la parentesi è obbligata; `2 + 2` fa `4` e basta. Le scelte
+vere restano — nei nomi, nella struttura — ma isolate, in mezzo a lunghi tratti forzati.
+Meno bivi per token che nella prosa: meno appigli per il marchio. Non zero — solo di
+meno.
 
 Che il marchio sia debole sul codice, però, non è la parola di Anthropic: è misurato. La
 letteratura indipendente — peer-reviewed, su codice vero — lo mostra: la rilevazione che

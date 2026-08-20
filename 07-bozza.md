@@ -1,8 +1,9 @@
 # 07 — Bozza (fase 4)
 
 > Iniziata il **19 ago 2026**. Prosa vera, italiano diretto (voce dell'autore).
-> Cresce sezione per sezione seguendo l'arco di `06`. **Per ora: solo l'apertura**
-> — campione per calibrare voce + consegne (decisione 4 dello schema).
+> Bozza-scheletro **completa** (apertura + P2-P7), da re-vocare. Ossa e fatti passati
+> in rilettura critica il 21 ago: fix apertura (rilevazione), fonte P3 ammorbidita,
+> attribuzione A/B, ripetizioni/limature.
 
 ---
 
@@ -13,12 +14,14 @@ lo zero, ottieni due risposte diverse. Lo sai già: a ogni parola il modello non
 la più probabile, ne pesca una dal mazzo secondo le probabilità. È un dado. Ed è quel
 dado a rendere l'output vario — a volte sorprendente.
 
-La filigrana di testo di Claude non toglie il dado. Lo trucca. A ogni tiro aggiunge una
+La filigrana di Claude non toglie il dado. Lo trucca. A ogni tiro aggiunge una
 spinta invisibile, sempre nello stesso verso, verso un sottoinsieme di parole scelto da
 una chiave segreta e dal contesto. Il dado gira ancora, ma cade un po' più spesso dove
-vuole la chiave. Ripeti la generazione mille volte e mille volte la spinta è identica:
-le risposte si somigliano di più. Da quella somiglianza, statisticamente, un rilevatore
-può capire che il testo è uscito da lì.
+vuole la chiave. Ripeti la generazione mille volte e mille volte la spinta è identica: le
+risposte si somigliano di più. E ogni singola risposta porta, sparsa tra le parole, la
+stessa preferenza — più termini "della chiave" di quanti il caso ne metterebbe. È quella
+firma, leggibile solo con la chiave, che un rilevatore riconosce: non gli serve
+confrontare niente, gli basta il testo che ha davanti.
 
 Fin qui è una curiosità tecnica. Il punto scomodo arriva adesso, ed è dove la faccenda
 smette di essere astratta e diventa tua.
@@ -42,8 +45,9 @@ distribuzione dell'output resta quella di sempre. Ma tu non usi tutte le chiavi.
 una, fissa — e sotto un'unica chiave fissa quella garanzia non ti riguarda: la varietà
 tra una tua risposta e l'altra cala, nel verso deciso dalla chiave. Di quanto, non lo
 sappiamo: la configurazione di Claude non è pubblica. La direzione è certa, l'entità no.
-E gli A/B test che Anthropic cita misurano la qualità di *una* risposta, non la varietà
-*tra* risposte — due cose diverse. Quanto margine ci sia da spendere, però, dipende da
+E gli A/B test portati a difesa — milioni di risposte, valutatori che non colgono
+differenze — misurano la qualità di *una* risposta, non la varietà *tra* risposte: due
+cose diverse. Quanto margine ci sia da spendere, però, dipende da
 quanta varietà c'era in partenza. In certi testi è pochissima. Nel codice, per esempio.
 
 ## Codice *(P3, ~380 — primo caso concreto di fragilità)*
@@ -53,12 +57,11 @@ la parentesi va chiusa, `2 + 2` fa `4`, il nome di una variabile appena dichiara
 ripetuto identico. Dove non c'è varietà non c'è dado — e senza dado non c'è niente da
 truccare.
 
-Che il marchio sia debole sul codice, però, non conviene prenderlo dalla parola di
-Anthropic: lo dice la letteratura indipendente. Misurato, il segnale sul codice è fiacco
-— pochi token "verdi", z-score di rilevazione piccolo — e la quota marcata scende man
-mano che scende l'entropia. Esiste perfino un filone di ricerca dedicato a marcare gli
-output a bassa entropia: esiste *perché* gli schemi standard, sul codice, non ce la
-fanno. L'esistenza del problema è la prova.
+Che il marchio sia debole sul codice, però, non serve prenderlo dalla parola di
+Anthropic: viene da sé. Meno varietà c'è da spendere, meno segnale si riesce a imprimere
+— più l'entropia scende, meno il testo si lascia marcare. Non a caso esiste un intero
+filone di ricerca dedicato a marcare gli output a bassa entropia: esiste *perché* gli
+schemi standard, sul codice, non ce la fanno. L'esistenza del problema è la prova.
 
 Anthropic la mette così: sul codice l'effetto è trascurabile, il marchio semmai si
 annida nei commenti. Vero — e proprio per questo è una confessione, non una
@@ -134,7 +137,7 @@ e verificarlo, almeno, si può?
 
 ## Verifica *(P5, ~420)*
 
-Il detector, per ora, non c'è: Anthropic dice "presto". Ma il ritardo non è un dettaglio
+Il rilevatore, per ora, non c'è: Anthropic dice "presto". Ma il ritardo non è un dettaglio
 tecnico, è il sintomo di un problema senza soluzione pulita. Perché con una filigrana
 *verificare* e *aggirare* sono la stessa mossa. Il rilevatore è la funzione che, con la
 chiave, riconosce l'impronta; darlo al pubblico perché ciascuno controlli significa
@@ -169,9 +172,9 @@ possa distinguere. Chiede, cioè, esattamente il corno che per una filigrana è
 irraggiungibile.
 
 Resta il fatto più semplice: chi vuole liberarsene lo fa gratis — un modello aperto non
-l'ha mai marchiato, una riscrittura vera lo dissolve. Il detector, quando arriverà, saprà
-dire "questo l'ha scritto Claude" a chi non ha fatto nulla per nasconderlo, e tacerà su
-chi l'ha riscritto. Giudica chi si è adeguato, non chi ha aggirato.
+l'ha mai marchiato, una riscrittura vera lo dissolve. Il rilevatore, quando arriverà,
+saprà dire "questo l'ha scritto Claude" a chi non ha fatto nulla per nasconderlo, e
+tacerà su chi l'ha riscritto. Giudica chi si è adeguato, non chi ha aggirato.
 
 ## Chiusura *(P6, ~350 — salda il loop dell'apertura)*
 
@@ -181,23 +184,19 @@ che pubblichi, ci sei tu. E su quella visibilità si regge tutto il resto.
 
 Guardala da vicino e vedrai che il costo cade sempre dalla stessa parte, la parte
 sbagliata. Chi scrive di suo e si fa aiutare a rifinire porta il marchio, e con esso la
-domanda su quanto sia davvero suo. Chi vuole sottrarsi non paga niente: un modello aperto
-non lo marchia, una riscrittura vera lo cancella. E quando il detector arriverà, darà il
-suo verdetto su chi non si è nascosto, non su chi si è nascosto bene. Marcatura,
-evasione, verifica: tre assi diversi, un solo verso. Il peso grava sull'onesto e scivola
-via da chi aggira. È un sistema di trasparenza i cui costi sono inversamente
-proporzionali alla colpa.
+domanda su quanto sia davvero suo. Chi vuole sottrarsi non paga niente, come s'è visto. E
+il rilevatore, quando arriverà, darà il suo verdetto su chi non si è nascosto, non su chi
+si è nascosto bene. Marcatura, evasione, verifica: da qualunque lato la guardi, il verso
+è lo stesso. Il peso grava sull'onesto e scivola via da chi aggira. È un sistema di
+trasparenza i cui costi sono inversamente proporzionali alla colpa.
 
 Si obietterà che l'utente onesto è proprio il destinatario voluto: rendere leggibile
-l'assistenza dell'IA è lo scopo dichiarato, non un effetto collaterale. È vero, ed è
-esattamente qui che la trasparenza si rovescia in altro. Un conto è dichiarare — una
-nota, che l'onesto avrebbe messo comunque e che la legge gli lasciava mettere. Altro è un
-marchio che gli si attacca addosso a prescindere, che sopravvive alla sua volontà, e che
-serve a farlo interrogare da chi tribunale non è. Non gli avevano nemmeno chiesto di
-marcare così: hanno scelto lo strumento che grava di più, sul soggetto che si difende di
-meno. Non è la trasparenza che diventa sorveglianza per malizia; è che la sua forma — un
-marchio imposto, e non pubblicamente verificabile — la rende, di fatto, un giudizio
-sull'onesto.
+l'assistenza dell'IA è lo scopo dichiarato, non un effetto collaterale. È vero — ed è
+esattamente qui che la trasparenza si rovescia in altro. Perché tra il dichiarare (una
+nota, che l'onesto avrebbe messo comunque) e un marchio imposto che gli sopravvive
+addosso corre la stessa distanza che separa il rendere conto dall'essere sorvegliati. Non
+per malizia: è la forma stessa dello strumento — un marchio non pubblicamente
+verificabile, scelto dove bastava meno — a farne, di fatto, un giudizio sull'onesto.
 
 È il rovescio esatto dell'allarme che ha accompagnato tutto questo. Non ti stanno rubando
 il testo. Ti stanno rendendo interrogabile — proprio te, che l'hai scritto — su quanto è

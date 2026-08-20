@@ -2,8 +2,8 @@
 
 > Iniziata il **19 ago 2026**. Prosa vera, italiano diretto (voce dell'autore).
 > Bozza-scheletro **completa** (apertura + P2-P7), da re-vocare. Ossa e fatti passati
-> in rilettura critica il 21 ago: fix apertura (rilevazione), fonte P3 ammorbidita,
-> attribuzione A/B, ripetizioni/limature.
+> in rilettura critica il 21 ago: fix apertura (rilevazione), fonte P3 verificata alla
+> primaria (ACL 2024), attribuzione A/B, ripetizioni/limature.
 
 ---
 
@@ -57,11 +57,13 @@ la parentesi va chiusa, `2 + 2` fa `4`, il nome di una variabile appena dichiara
 ripetuto identico. Dove non c'è varietà non c'è dado — e senza dado non c'è niente da
 truccare.
 
-Che il marchio sia debole sul codice, però, non serve prenderlo dalla parola di
-Anthropic: viene da sé. Meno varietà c'è da spendere, meno segnale si riesce a imprimere
-— più l'entropia scende, meno il testo si lascia marcare. Non a caso esiste un intero
-filone di ricerca dedicato a marcare gli output a bassa entropia: esiste *perché* gli
-schemi standard, sul codice, non ce la fanno. L'esistenza del problema è la prova.
+Che il marchio sia debole sul codice, però, non è la parola di Anthropic: è misurato. La
+letteratura indipendente — peer-reviewed, su codice vero — lo mostra: la rilevazione che
+sulla prosa becca il testo quasi sempre, sul codice scivola verso i due terzi dei casi. A
+bassa entropia un token "verde" è raro, e restano poche posizioni in cui il marchio può
+incidere. Non a caso esiste un intero filone di ricerca dedicato a marcare gli output a
+bassa entropia: esiste *perché* gli schemi standard, sul codice, non ce la fanno.
+L'esistenza del problema è la prova.
 
 Anthropic la mette così: sul codice l'effetto è trascurabile, il marchio semmai si
 annida nei commenti. Vero — e proprio per questo è una confessione, non una

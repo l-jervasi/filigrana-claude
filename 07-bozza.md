@@ -136,10 +136,12 @@ europea sulla trasparenza — l'articolo che entra in vigore adesso — chiede c
 sia "rilevabile come generato dall'IA", ma è neutra sul come: il considerando che
 l'accompagna mette tra le tecniche ammesse, alla pari, i *metadati* e i *metodi
 crittografici di provenienza*. Un'etichetta staccabile, una firma allegata, un checksum:
-sarebbero bastati a essere in regola. E per chi *pubblica* un testo l'obbligo è solo di
-*dichiararlo* — e cade del tutto se c'è una revisione umana con responsabilità
-editoriale. Le vie leggere c'erano tutte. Hanno scelto un marchio incorporato nel testo,
-che sopravvive al copia-incolla e non si stacca a volontà. La lettura generosa è che
+sarebbero bastati a essere in regola — e non è un'ipotesi di scuola, quella via Anthropic
+la usa davvero, sui file immagine che genera, con lo standard C2PA. E per chi *pubblica*
+un testo l'obbligo è solo di *dichiararlo* — e cade del tutto se c'è una revisione umana
+con responsabilità editoriale. Le vie leggere c'erano tutte. Sul testo, invece, hanno
+scelto un marchio incorporato nelle parole, che sopravvive al copia-incolla e non si
+stacca a volontà. La lettura generosa è che
 l'abbiano fatto per robustezza — la legge la incoraggia, "per quanto tecnicamente
 possibile". Ma la robustezza *è* esattamente ciò che rende il marchio imposto invece che
 scelto: non è più conformità, è marcatura. La domanda ovvia, a questo punto, è un'altra:

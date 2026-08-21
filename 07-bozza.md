@@ -54,20 +54,20 @@ da chi vuole liberarsene.
 È il contrario di quello che l'allarme popolare ha raccontato. Non ti stanno rubando il
 testo. Ti stanno mettendo addosso un onere — e proprio a te.
 
-## Tecnico *(P2, ~150 — biglietto magro)*
+## Tecnico *(P2 — biglietto magro; scaffold mio, DA RE-VOCARE)*
 
-Torniamo al dado, perché la sua stranezza spiega il resto. La spinta della chiave non
-*sostituisce* il caso: i candidati per ogni parola si pescano ancora dalla distribuzione
-del modello — è la scelta tra loro a essere truccata. Per questo Anthropic può dire, con
-ragione, che il metodo è "non distorsivo": *in media su tutte le chiavi possibili* la
-distribuzione dell'output resta quella di sempre. Ma tu non usi tutte le chiavi. Ne usi
-una, fissa — e sotto un'unica chiave fissa quella garanzia non ti riguarda: la varietà
+Verrà da obiettare: ma Anthropic dice che il metodo è "non distorsivo", quindi non cambia
+niente. Ed è vero — solo, la garanzia vale *in media su tutte le chiavi possibili*:
+mediando su tutte, la distribuzione dell'output resta quella di sempre. Ma di chiave, in
+Claude, ce n'è una sola, fissa, e sotto quella la garanzia non ti riguarda: la varietà
 tra una tua risposta e l'altra cala, nel verso deciso dalla chiave. Di quanto, non lo
-sappiamo: la configurazione di Claude non è pubblica. La direzione è certa, l'entità no.
-E gli A/B test portati a difesa — milioni di risposte, valutatori che non colgono
+sappiamo — la configurazione di Claude non è pubblica: la direzione è certa, l'entità no.
+E gli A/B test citati a difesa — milioni di risposte, valutatori che non colgono
 differenze — misurano la qualità di *una* risposta, non la varietà *tra* risposte: due
-cose diverse. Quanto margine ci sia da spendere, però, dipende da
-quanta varietà c'era in partenza. In certi testi è pochissima. Nel codice, per esempio.
+cose diverse.
+
+Quanto margine ci sia da comprimere, però, dipende da quanta varietà c'era in partenza. In
+certi testi è pochissima. Nel codice, per esempio.
 
 ## Codice *(P3, ~380 — primo caso concreto di fragilità)*
 

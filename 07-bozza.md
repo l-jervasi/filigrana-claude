@@ -7,40 +7,21 @@
 
 ---
 
-## Apertura *(re-vocata dall'autore — 22 ago)*
+## Apertura *(~280)*
 
-Se sei un programmatore, un appassionato di tecnologia o semplicemente un fruitore di
-servizi di intelligenza artificiale, sicuramente avrai sentito parlare dell'"AI Act".
-Questa legge, emanata dall'Unione Europea, punta, tra le altre cose, a facilitare il
-riconoscimento di contenuti, siano essi immagini, testi o video, provenienti da un
-qualsiasi sistema non umano.
+Se chiedi due volte la stessa cosa a un modello linguistico, con la temperatura sopra
+lo zero, ottieni due risposte diverse. Lo sai già: a ogni parola il modello non prende
+la più probabile, ne pesca una dal mazzo secondo le probabilità. È un dado. Ed è quel
+dado a rendere l'output vario — a volte sorprendente.
 
-Con l'entrata in applicazione degli obblighi sulla trasparenza, il provvedimento ha avuto
-ripercussioni sulle aziende specializzate in LLM, le quali dovranno inevitabilmente
-adeguarsi agli standard imposti per non trovarsi ad affrontare eventuali sanzioni o
-limitazioni.
-
-Tra queste una delle prime è stata Anthropic con il suo Claude, con un sistema che a mio
-avviso merita un articolo e che, appena annunciato, ha fatto discutere parecchio: c'è chi
-ha gridato al furto del proprio testo, chi alla sorveglianza mascherata da trasparenza.
-
-Se chiedi due volte la stessa cosa ad un modello linguistico otterrai due risposte
-diverse, lo sai e te lo aspetti. Il motivo? Ad ogni parola il modello non prende la più
-probabile, ne pesca una dal mazzo secondo le probabilità. È un dado. Ed è quel dado a
-rendere l'output vario, a volte in modo sorprendente.
-
-Il sistema trovato per Claude, una filigrana invisibile, interviene proprio su questo
-dado, ma non lo toglie, lo trucca. Continuando a mantenere l'analogia, è come se ad ogni
-tiro fosse aggiunta una spinta invisibile, sempre nello stesso verso, ovvero verso un
-sottoinsieme scelto da una chiave segreta e dal contesto. È come se il dado continuasse
-ad esserci ma cadesse più spesso su una faccia voluta dalla chiave. Pur ripetendo il
-lancio mille volte avremmo sempre la stessa identica spinta, il risultato? Le risposte si
-assomigliano di più.
-
-E ogni singola risposta porta, sparsa tra le parole, la stessa preferenza, più termini
-"della chiave" di quanti il caso ne metterebbe. È quella firma, leggibile solo con la
-chiave, che un rilevatore riconosce: non gli serve confrontare niente, gli basta il testo
-che ha davanti.
+La filigrana di Claude non toglie il dado. Lo trucca. A ogni tiro aggiunge una
+spinta invisibile, sempre nello stesso verso, verso un sottoinsieme di parole scelto da
+una chiave segreta e dal contesto. Il dado gira ancora, ma cade un po' più spesso dove
+vuole la chiave. Ripeti la generazione mille volte e mille volte la spinta è identica: le
+risposte si somigliano di più. E ogni singola risposta porta, sparsa tra le parole, la
+stessa preferenza — più termini "della chiave" di quanti il caso ne metterebbe. È quella
+firma, leggibile solo con la chiave, che un rilevatore riconosce: non gli serve
+confrontare niente, gli basta il testo che ha davanti.
 
 Fin qui è una curiosità tecnica. Il punto scomodo arriva adesso, ed è dove la faccenda
 smette di essere astratta e diventa tua.
@@ -54,20 +35,20 @@ da chi vuole liberarsene.
 È il contrario di quello che l'allarme popolare ha raccontato. Non ti stanno rubando il
 testo. Ti stanno mettendo addosso un onere — e proprio a te.
 
-## Tecnico *(P2 — biglietto magro; scaffold mio, DA RE-VOCARE)*
+## Tecnico *(P2, ~150 — biglietto magro)*
 
-Verrà da obiettare: ma Anthropic dice che il metodo è "non distorsivo", quindi non cambia
-niente. Ed è vero — solo, la garanzia vale *in media su tutte le chiavi possibili*:
-mediando su tutte, la distribuzione dell'output resta quella di sempre. Ma di chiave, in
-Claude, ce n'è una sola, fissa, e sotto quella la garanzia non ti riguarda: la varietà
+Torniamo al dado, perché la sua stranezza spiega il resto. La spinta della chiave non
+*sostituisce* il caso: i candidati per ogni parola si pescano ancora dalla distribuzione
+del modello — è la scelta tra loro a essere truccata. Per questo Anthropic può dire, con
+ragione, che il metodo è "non distorsivo": *in media su tutte le chiavi possibili* la
+distribuzione dell'output resta quella di sempre. Ma tu non usi tutte le chiavi. Ne usi
+una, fissa — e sotto un'unica chiave fissa quella garanzia non ti riguarda: la varietà
 tra una tua risposta e l'altra cala, nel verso deciso dalla chiave. Di quanto, non lo
-sappiamo — la configurazione di Claude non è pubblica: la direzione è certa, l'entità no.
-E gli A/B test citati a difesa — milioni di risposte, valutatori che non colgono
+sappiamo: la configurazione di Claude non è pubblica. La direzione è certa, l'entità no.
+E gli A/B test portati a difesa — milioni di risposte, valutatori che non colgono
 differenze — misurano la qualità di *una* risposta, non la varietà *tra* risposte: due
-cose diverse.
-
-Quanto margine ci sia da comprimere, però, dipende da quanta varietà c'era in partenza. In
-certi testi è pochissima. Nel codice, per esempio.
+cose diverse. Quanto margine ci sia da spendere, però, dipende da
+quanta varietà c'era in partenza. In certi testi è pochissima. Nel codice, per esempio.
 
 ## Codice *(P3, ~380 — primo caso concreto di fragilità)*
 

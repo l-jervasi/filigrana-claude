@@ -71,3 +71,7 @@ Le vie leggere c'erano tutte. Sul testo, invece, hanno scelto un marchio incorpo
 Ma quindi perché Anthropic ha scelto proprio questa via? La risposta non è certa o completamente documentata, una lettura "generosa" può essere che l'abbiano fatto per robustezza – la stessa legge la incoraggia "per quanto tecnicamente possibile". Ma è il tipo di robustezza il nodo: è ciò che fa sì che il marchio non si stacchi più da chi lo porta. E un marchio che non puoi togliere smette di essere un semplice adempimento di trasparenza — diventa qualcosa che ti resta addosso, voluto o no.
 
 Detto questo la domanda ovvia che può venire in mente è se esiste un sistema per verificare la presenza del marchio.
+
+Anthropic dice 'presto', ma da quando l'ha annunciato sono passati oltre dieci giorni e il rilevatore ancora non c'è. 
+Il ritardo non è un dettaglio tecnico ma risponde ad un problema per il quale non esiste una soluzione pulita. Quando si parla di filigrana verificare e aggirare sono le due facce di una stessa medaglia. Il rilevatore è lo strumento che, con la chiave, riconosce il marchio; permettere che chiunque possa utilizzarlo significa dare la possibilità a chiunque di limare l'output ottenuto fino a che tale marchio sparisce. Ed è così che funziona una firma dentro al testo: la firma esterna la verifichi senza che questo aiuti a falsificarla, ma muore al copia-incolla; il marchio intrinseco sopravvive a quest'ultimo, ma proprio per poterlo fare non può permettere di essere verificato.
+

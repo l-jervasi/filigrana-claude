@@ -39,6 +39,35 @@ Secondo ciò che ha scritto Anthropic, sul codice l'effetto della marcatura è t
 
 Così il codice prende il peggio da entrambe le parti: marcato poco, perché i punti su cui agire sono rari, e dove è marcato piegato più che altrove. Piegato, non rotto – la scelta resta valida, un nome vale l'altro – solo, non è quella che il modello avrebbe scelto.
 
-Solo dove la parola è davvero obbligata – la sintassi, `2+2` che fa `4` – non c'è nessun verde tra cui spingere, e allora niente. O il codice porta abbastanza scelte da marcare, e allora quelle scelte gliele stai piegando; o non le porta, e il marchio non c'è. "Effetto trascurabile sul codice" e "il codice è a malapena marchiato" sono la stessa frase: se davvero non ti tocca il codice, è perché non lo sta marcando, se lo tocca lo sta distorcendo.
+Solo dove la parola è davvero obbligata – la sintassi, `2+2` che fa `4` – non c'è nessun verde tra cui spingere, e allora niente. O il codice porta abbastanza scelte da marcare, e allora quelle scelte gliele stai piegando; o non le porta, e il marchio non c'è. "Effetto trascurabile sul codice" e "il codice è a malapena marchiato" sono la stessa frase: se davvero non ti tocca il codice, è perché non lo sta marcando, se lo fa lo sta distorcendo.
 
-E quel poco che il codice si lascia marcare sta proprio nei punti più fragili: i nomi, i commenti. Punti che si toccano senza toccare la logica – un commento si cancella, una variabile si rinomina, e il segnale se ne va. Quanto ne resti nel codice di Claude non lo sappiamo: il rilevatore non è ancora pubblico, nessuno l'ha misurato. Ma la direzione è chiara – dove conta la precisione il marchio quasi non c'è; e dov'è, si stacca con facilità.
+E quel poco che il codice si lascia marcare sta proprio nei punti più fragili per la filigrana stessa: i nomi, i commenti. Punti che si toccano senza toccare la logica – un commento si cancella, una variabile si rinomina, e il segnale se ne va. Quanto ne resti nel codice di Claude non lo sappiamo: il rilevatore non è ancora pubblico, nessuno l'ha misurato. Ma la direzione è chiara – in buona parte del codice il marchio non c'è per proprietà intrinseche al codice stesso; e dove c'è, si stacca con facilità.
+
+Adesso mettiamo che tu stia lavorando su un testo in prosa, dove l'entropia è alta e la filigrana tiene. Cosa cambia davvero per te?
+Meno di quello che si può temere da una parte, qualcosa di più insidioso dall'altra.
+Anche su questo si esprime Anthropic e di nuovo in maniera sincera: il marchio non cambia né chi è l'autore né sposta la responsabilità legale. Dal punto di vista legale è sostanzialmente inerte. Il copyright nasce, come sarebbe per un testo tradizionale, in automatico nel momento in cui scrivi senza deposito né registrazione – è così da Berna in poi, e lo ribadisce il codice
+americano quando dice che la registrazione "non è condizione della protezione". 
+Il copyright è presunto, chi mette il proprio nome sull'opera è considerato l'autore salvo prova contraria, così come sancito dalla Convenzione di Berna e dalla direttiva europea sull'enforcement. In un eventuale caso legale sarà l'accusatore a dover dimostrare il contrario, non tu a dover provare che sei il vero autore.
+Inoltre il copyright, per esistere, ha bisogno di un autore umano. Un'IA non può detenerlo – e Claude nemmeno, per quanto sia lui a mettere le parole in fila. Vale su entrambe le sponde: negli USA i tribunali e l'ufficio copyright l'hanno detto senza appello; in Europa la legge chiede una "creazione intellettuale propria dell'autore", cioè di un umano.
+
+Quindi il marchio per quanto riguarda il copyright non ti tocca?
+In realtà lo fa eccome: un output puramente generato da una macchina non è proteggibile comunque, e i prompt da soli non ti rendono autore – la legge non cambia –, ciò che conta non è se hai usato l'IA, ma quanto di umano c'è dentro e se è abbastanza da meritare protezione, ed è qui che il marchio potrebbe fare la differenza.
+Il marchio, infatti, incrina la presunzione di paternità, nessuno di norma ti chiede di dimostrare che un testo a tua firma è tuo: la domanda non esiste. Il marchio la fa esistere creando un segnale interrogabile che, se presente, porta ad una domanda: "quanto, di questo, ce l'hai messo tu?".
+Il diritto d'autore non si gioca tra te e Claude, ma su un altro dato "c'è abbastanza lavoro umano da meritare protezione?". Prima della filigrana la soglia era presunta a tuo favore, da quando esiste è qualcosa che si può chiedere di difendere.
+
+E di nuovo, anche su questo frangente, colpisce più l'utente onesto. Colui che usava l'AI per scrivere tutto, un copyright non lo avrebbe avuto comunque. Chi invece ha scritto il 90% del testo e ha scelto che Claude rifinisse il resto viene colpito in pieno, è l'autore legittimo ma adesso porta addosso un marchio che ha in sé la possibilità di mettere in discussione ciò che è chiaramente suo.
+
+Detto con onestà, ad oggi non ci sono casi in cui il tribunale ha chiesto di provare l'apporto umano sulla base di una filigrana – anche perché non esistono ancora gli strumenti per farlo – ma introduce un rischio strutturale creato dallo strumento. 
+Che il marchio crei le condizioni perché la domanda venga posta è dimostrabile ora; che qualcuno te la porrà è una previsione, e
+come tale va presa. 
+
+Nel caso in cui questa previsione si avveri, il modo giusto ed onesto di lavorare non sarà nascondere l'uso dell'IA ma documentare se stessi ed il proprio apporto al lavoro – bozze, cronologia, prompt – e tracciare il proprio processo. Aggiunge complessità al lavoro ma garantisce il diritto sul pezzo, sia che a creare ambiguità sia la filigrana o meno.
+
+Per quanto riguarda il tipo di marchio, era davvero necessaria una filigrana così invasiva? Risposta breve: no.
+La legge europea sulla trasparenza – quella appena entrata in vigore – impone che l'output sia "rilevabile come generato dall'IA", ma non dice esplicitamente quale metodo usare per farlo. Il considerando presente nello stesso documento mette esplicitamente tra le tecniche ammesse, alla pari, i metadati e i metodi crittografici di provenienza. Un'etichetta staccabile, una firma allegata, un checksum: sarebbero bastati a essere in regola.
+E in effetti la stessa Anthropic lo utilizza sui file immagine che genera, con lo standard C2PA.
+A questo si aggiunge che per chi pubblica un testo, in realtà, l'obbligo è solo di dichiararlo e cade del tutto se c'è una revisione umana con responsabilità editoriale. 
+Le vie leggere c'erano tutte. Sul testo, invece, hanno scelto un marchio incorporato nelle parole, che sopravvive al copia-incolla e non si stacca a volontà.
+Ma quindi perché Anthropic ha scelto proprio questa via? La risposta non è certa o completamente documentata, una lettura "generosa" può essere che l'abbiano fatto per robustezza – la stessa legge la incoraggia "per quanto tecnicamente possibile". Ma è il tipo di robustezza il nodo: è ciò che fa sì che il marchio non si stacchi più da chi lo porta. E un marchio che non puoi togliere smette di essere un semplice adempimento di trasparenza — diventa qualcosa che ti resta addosso, voluto o no.
+
+Detto questo la domanda ovvia che può venire in mente è se esiste un sistema per verificare la presenza del marchio.

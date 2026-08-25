@@ -75,3 +75,20 @@ Detto questo la domanda ovvia che può venire in mente è se esiste un sistema p
 Anthropic dice 'presto', ma da quando l'ha annunciato sono passati oltre dieci giorni e il rilevatore ancora non c'è. 
 Il ritardo non è un dettaglio tecnico ma risponde ad un problema per il quale non esiste una soluzione pulita. Quando si parla di filigrana verificare e aggirare sono le due facce di una stessa medaglia. Il rilevatore è lo strumento che, con la chiave, riconosce il marchio; permettere che chiunque possa utilizzarlo significa dare la possibilità a chiunque di limare l'output ottenuto fino a che tale marchio sparisce. Ed è così che funziona una firma dentro al testo: la firma esterna la verifichi senza che questo aiuti a falsificarla, ma muore al copia-incolla; il marchio intrinseco sopravvive a quest'ultimo, ma proprio per poterlo fare non può permettere di essere verificato.
 
+Da qui ne esce un trilemma irrisolvibile. Rilevatore totalmente chiuso in mano ad Anthropic, nessuna condivisione della chiave, tutto interno. La trasparenza da fine si tramuta in vero e proprio atto di fede sulla sola fonte disponibile ed imposta.
+Rilevatore totalmente aperto: si verifica il problema discusso sopra, chiunque verifica implica che chiunque può aggirare, si perde totalmente la robustezza.
+Rilevatore semi-aperto, dato solo a piattaforme "fidate" come datori, scuole, editori. Trasforma la verifica in un privilegio dove loro hanno il verdetto sul tuo lavoro, tu no. E con nessuna delle tre soluzioni si ha quello che invece si auspicava: una trasparenza pubblica.
+
+Di queste tre opzioni, quella che più probabilmente verrà adottata è la terza ma è anche la più insidiosa perché quel verdetto non regge dove conta. 
+In Italia una lite sulla paternità di un testo è civile, e lì il giudice pesa le prove "secondo il suo prudente apprezzamento": un segnale non validato, dal tasso d'errore non noto vale poco; mentre in sede penale la Cassazione, tramite la sentenza Cozzini, ha valutato le prove con criteri di affidabilità del metodo scientifico – testabilità, tasso d'errore, revisione, accettazione – e sarà il giudice a fare da "custode del metodo": il marchio di Anthropic, ad oggi, non supererebbe tali criteri.
+
+E fuori dall'Italia? La nostra sentenza Cozzini è la gemella dello standard americano Daubert, e anche lì la conclusione è la stessa: il segnale non sarebbe preso come buono da un tribunale ma potrà essere usato da chi tribunale non è, per giudicare le persone.
+
+Ma quindi la filigrana è una mossa assurda di Anthropic? 
+Difese per il metodo adottato ci sono e sono oneste: il marchio non nasce per validare il singolo scritto o come prova da usare contro una singola persona. Lo dice Anthropic stessa – segnala che un testo potrebbe essere passato da Claude, non lo dimostra – ed è inferenza statistica, ha senso sui grandi numeri, non per inchiodare un singolo passaggio.
+
+Ma il danno non sta nell'uso per come è pensato, sta nell'uso collaterale; la scuola che segnala un tema, il datore di lavoro che scarta una relazione – un segnale grezzo che finisce per giudicare il singolo. E non è un'ipotesi, i rilevatori di IA già oggi vengono usati nelle scuole, falsi positivi compresi: è già così.
+
+Ed è lo stesso traguardo che ricerca la legge: il regolamento europeo auspica che i meccanismi di rilevazione siano "accessibili", di modo da far sì che "il pubblico possa distinguere". Punta, dunque, verso il rilevatore aperto a tutti, ma questo è esattamente il tipo di rilevatore che una filigrana non può avere, il rilevatore che uccide la robustezza. In sostanza ricerca una trasparenza pubblica che questo tipo di marchio non può dare.
+
+

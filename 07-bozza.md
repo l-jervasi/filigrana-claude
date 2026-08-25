@@ -175,10 +175,12 @@ oggi, non supererebbe. È il gemello italiano dello standard americano Daubert, 
 conclusione è la stessa: un segnale che un tribunale non prenderebbe per buono, usato da
 chi tribunale non è, per giudicare le persone.
 
-La difesa esiste, ed è onesta: il rilevatore nasce come etichetta su scala di
-piattaforma, non come perizia sul singolo. Vero. Ma il danno non è l'uso previsto, è il
-riuso — la scuola che segnala il tema, il datore che scarta la relazione — e con i
-rilevatori di IA esistenti è già la norma. E la legge stessa lo insegue: il regolamento
+La difesa esiste, ed è onesta: di suo questo rilevatore non è una prova sul singolo —
+Anthropic stessa lo dice (segnala che un testo *potrebbe* essere passato da Claude, non lo
+dimostra), e la rilevazione è statistica: ha senso sui grandi numeri, non per inchiodare
+un singolo passaggio. Vero. Ma il danno non è l'uso previsto, è il riuso — la scuola che
+segnala il tema, il datore che scarta la relazione — e con i rilevatori di IA esistenti è
+già diffuso. E la legge stessa lo insegue: il regolamento
 europeo auspica che i meccanismi di rilevazione siano "accessibili", così che il pubblico
 possa distinguere. Chiede, cioè, esattamente il corno che per una filigrana è
 irraggiungibile.

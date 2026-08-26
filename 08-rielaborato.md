@@ -68,7 +68,7 @@ La legge europea sulla trasparenza – quella appena entrata in vigore – impon
 E in effetti la stessa Anthropic lo utilizza sui file immagine che genera, con lo standard C2PA.
 A questo si aggiunge che per chi pubblica un testo, in realtà, l'obbligo è solo di dichiararlo e cade del tutto se c'è una revisione umana con responsabilità editoriale. 
 Le vie leggere c'erano tutte. Sul testo, invece, hanno scelto un marchio incorporato nelle parole, che sopravvive al copia-incolla e non si stacca a volontà.
-Ma quindi perché Anthropic ha scelto proprio questa via? La risposta non è certa o completamente documentata, una lettura "generosa" può essere che l'abbiano fatto per robustezza – la stessa legge la incoraggia "per quanto tecnicamente possibile". Ma è il tipo di robustezza il nodo: è ciò che fa sì che il marchio non si stacchi più da chi lo porta. E un marchio che non puoi togliere smette di essere un semplice adempimento di trasparenza — diventa qualcosa che ti resta addosso, voluto o no.
+Ma quindi perché Anthropic ha scelto proprio questa via? La risposta non è certa o completamente documentata, una lettura "generosa" può essere che l'abbiano fatto per robustezza – la stessa legge la incoraggia "per quanto tecnicamente possibile". Ma è il tipo di robustezza il nodo: è ciò che fa sì che il marchio non si stacchi più da chi lo porta. E un marchio che non puoi togliere smette di essere un semplice adempimento di trasparenza – diventa qualcosa che ti resta addosso, voluto o no.
 
 Detto questo la domanda ovvia che può venire in mente è se esiste un sistema per verificare la presenza del marchio.
 
@@ -90,5 +90,11 @@ Difese per il metodo adottato ci sono e sono oneste: il marchio non nasce per va
 Ma il danno non sta nell'uso per come è pensato, sta nell'uso collaterale; la scuola che segnala un tema, il datore di lavoro che scarta una relazione – un segnale grezzo che finisce per giudicare il singolo. E non è un'ipotesi, i rilevatori di IA già oggi vengono usati nelle scuole, falsi positivi compresi: è già così.
 
 Ed è lo stesso traguardo che ricerca la legge: il regolamento europeo auspica che i meccanismi di rilevazione siano "accessibili", di modo da far sì che "il pubblico possa distinguere". Punta, dunque, verso il rilevatore aperto a tutti, ma questo è esattamente il tipo di rilevatore che una filigrana non può avere, il rilevatore che uccide la robustezza. In sostanza ricerca una trasparenza pubblica che questo tipo di marchio non può dare.
+
+E si può andare persino oltre il rimuoverlo. Nello studio "Watermark Stealing in Large Language Models" – Jovanović, Staab e Vechev, ETH di Zurigo, ICML 2024 – si è arrivati a dimostrare che, interrogando un modello con filigrana – KGW2-SelfHash, una green-red-list distorsiva –, si riesce a ricostruire buona parte della sua regola tanto da non solo rimuovere il marchio, ma aggiungerlo ad un testo scritto da un umano. Non si parla né di Claude né di SynthID-Text, ma di uno schema della stessa famiglia; questo porta ad una conclusione importante: una firma a chiave si impara dagli output e un segnale che si può falsificare non prova più niente.
+
+Si potrebbe obiettare che non si sta parlando di Claude, e sì, è assolutamente vero, la fattibilità sull'LLM di Anthropic è probabile ma non certa e, soprattutto, mentre per KGW2-SelfHash si parla di una spesa irrisoria – 50$ di chiamate API per generare testo marchiato – la spesa su Claude, non essendo stato testato, è ignota e potrebbe non essere altrettanto irrisoria. Quindi il sistema alla fine è valido? A mio avviso, no e per un motivo semplice: chi vuole liberarsene lo fa gratis — un modello aperto non
+l'ha mai marchiato, e a un testo marcato bastano una traduzione o una riscrittura perché il segnale sparisca. Il rilevatore, quando arriverà, saprà dire "questo l'ha scritto Claude" a chi non ha fatto nulla per nasconderlo, e tacerà su chi l'ha tradotto o riscritto. Giudica chi si è adeguato, non chi ha aggirato.
+
 
 

@@ -1,3 +1,5 @@
+# La filigrana di Claude, l'AI Act e chi ci rimette
+
 Se sei un programmatore, un appassionato di tecnologia o semplicemente un fruitore di servizi di intelligenza artificiale, molto probabilmente avrai sentito parlare dell'"AI Act".
 
 Questa legge, emanata dall'Unione Europea, punta, tra le altre cose, a facilitare il riconoscimento di contenuti, siano essi immagini, testi o video, provenienti da un qualsiasi sistema non umano.

@@ -103,3 +103,9 @@ La conclusione, a mio avviso, è pura inferenza logica: il marchio non ti esprop
  Non è speculazione o malizia, è un dato: la forma stessa dello strumento – marchio non pubblicamente verificabile (ad ora), scelto dove bastava meno – lo rende, di fatto, un giudizio sull'onesto.
 
  Non ti stanno rubando la proprietà sul tuo lavoro, quella rimane esattamente dov'era. Ti stanno rendendo interrogabile su quanto è davvero tuo; dall'altro lato, ed è ironico, a chi ha barato non viene chiesto assolutamente niente.
+
+ E chiudo con due parole su questo stesso testo – quello che hai appena letto – dato che, dopo tutto quello che ho scritto, sono d'obbligo: questo articolo utilizza Claude e lo fa a più livelli.
+
+ L'idea di base nasce da una mia curiosità arricchita da una conversazione con Claude. Da un botta e risposta sono nati prima il piano e le varie tesi, e con essi ciò che ci volevo dentro – in sostanza tutto mio – poi la ricerca di fonti – lui trova, io valido, e lui controlla se aggiornate – la stesura di una prima bozza seguendo il piano – praticamente solo Claude – ed infine la rilettura e la correzione finale con la riscrittura in voce personale – mia e con molte parti corrette nella sostanza non solo nella forma – per terminare in un ultimo controllo formale di Claude. 
+ Il tutto tracciato e documentato via commit su git.
+ Un lavoro di Claude? In parte, ma credo molto più mio. La sentenza la lascio al lettore e a prova, in calce, di seguito il link alla repository pubblica.

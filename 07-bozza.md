@@ -192,10 +192,6 @@ mostrato che, interrogando l'API del modello per meno di cinquanta dollari, si
 ricostruiscono le regole del marchio abbastanza da rimuoverlo *e* da falsificarlo su un
 testo scritto da un umano. Se un segnale lo si può contraffare, la sua presenza non prova
 più nulla — e la sua assenza non l'aveva mai fatto.
-<!-- scaffold: inciso spoofing/ETH — Jovanović, Staab, Vechev, "Watermark Stealing in
-LLMs", ICML 2024; schema testato = KGW2-SelfHash (famiglia KGW), NON SynthID/tournament;
-scope completo in 03-fonti.md. DECISIONE P5 aperta: tenere scoped come qui, oppure togliere
-(la tesi regge senza). Se si tiene, NON far scivolare su "hanno bucato Claude". -->
 
 Resta il fatto più semplice: chi vuole liberarsene lo fa gratis — un modello aperto non
 l'ha mai marchiato, una riscrittura vera lo dissolve. Il rilevatore, quando arriverà,

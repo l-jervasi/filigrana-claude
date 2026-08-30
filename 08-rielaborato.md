@@ -1,4 +1,4 @@
-# La filigrana di Claude, l'AI Act e chi ci rimette
+# Trasparenza per chi? La filigrana di Claude e l'AI Act
 
 Se sei un programmatore, un appassionato di tecnologia o semplicemente un fruitore di servizi di intelligenza artificiale, molto probabilmente avrai sentito parlare dell'"AI Act".
 

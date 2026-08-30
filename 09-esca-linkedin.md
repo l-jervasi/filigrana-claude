@@ -4,4 +4,4 @@ Un'IA non può detenere il copyright – quindi conta quanto di umano c'è in un
 
 Un sistema di trasparenza i cui costi sono inversamente proporzionali alla colpa.
 
-Ci ho scritto sopra — meccanismo, verifica, e perché in tribunale non reggerebbe. Un articolo, nato per curiosità e per capirci qualcosa. Link sotto. 👇
+Ci ho scritto sopra — meccanismo, verifica, e perché in tribunale non reggerebbe. Un articolo, nato per curiosità e per capire cosa comporterà davvero per noi utilizzatori. Link sotto. 👇

@@ -8,6 +8,8 @@ Con gli obblighi di trasparenza entrati in vigore, le aziende che sviluppano LLM
 
 Tra queste una delle prime è stata Anthropic con il suo Claude, adottando un sistema che a mio avviso merita un articolo.
 
+## Come funziona: il dado truccato
+
 Se chiedi due volte la stessa cosa ad un modello linguistico otterrai due risposte diverse, lo sai e te lo aspetti. Il motivo? Ad ogni parola il modello non prende la più probabile, ne pesca una dal mazzo secondo le probabilità. È un dado. Ed è quel dado a rendere l'output vario, a volte in modo sorprendente.
 
 Il sistema trovato per Claude – si chiama SynthID-Text – interviene proprio su questo dado, ma non lo toglie, lo trucca. 
@@ -29,6 +31,8 @@ Da questo ne esce una notizia buona per chi effettivamente usa il modello ed Ant
 Il problema è però più sottile: la qualità rimarrà mediamente la stessa, ma a calare sarà la varietà nella direzione decisa dalla chiave fissa. Di quanto, non lo sappiamo: la configurazione di Claude non è pubblica. La direzione è certa, l'entità no.
 Negli A/B test che portano a prova del "nessun calo di qualità" – milioni di risposte, valutatori che non colgono differenze – si misura la qualità di una risposta, non la varietà tra risposte: due cose diverse. Quanto margine ci sia da spendere, però, dipende da quanta varietà c'era in partenza. In certi testi è pochissima. Il codice di un programma ne è un esempio.
 
+## Il caso particolare del codice
+
 Probabilmente questo sembra un controsenso: il codice permette tantissime possibilità, migliaia di algoritmi di risoluzione o di modi per rappresentare uno stesso calcolo. Ma non è qui che interviene la filigrana, non lavora sull'intero programma, sulle scelte implementative o su quali algoritmi e variabili utilizzare, lavora un token alla volta e lì la libertà è più rada.
 
 Il nome che scegli una volta va poi ripetuto identico a ogni uso; dopo `for (int i = 0;` la parentesi è obbligata; `2 + 2` fa `4` e basta. Alcune scelte restano – nei nomi, nella struttura – ma isolate, in mezzo a lunghi tratti obbligati.
@@ -44,6 +48,8 @@ Così il codice prende il peggio da entrambe le parti: marcato poco, perché i p
 Solo dove la parola è davvero obbligata – la sintassi, `2+2` che fa `4` – non c'è nessun verde tra cui spingere, e allora niente. O il codice porta abbastanza scelte da marcare, e allora quelle scelte gliele stai piegando; o non le porta, e il marchio non c'è. "Effetto trascurabile sul codice" e "il codice è a malapena marchiato" sono la stessa frase: se davvero non ti tocca il codice, è perché non lo sta marcando, se lo fa lo sta distorcendo.
 
 E quel poco che il codice si lascia marcare sta proprio nei punti più fragili per la filigrana stessa: i nomi, i commenti. Punti che si toccano senza toccare la logica – un commento si cancella, una variabile si rinomina, e il segnale se ne va. Quanto ne resti nel codice di Claude non lo sappiamo: il rilevatore non è ancora pubblico, nessuno l'ha misurato. Ma la direzione è chiara – in buona parte del codice il marchio non c'è per proprietà intrinseche al codice stesso; e dove c'è, si stacca con facilità.
+
+## Il dubbio sulla proprietà intellettuale
 
 Adesso mettiamo che tu stia lavorando su un testo in prosa, dove l'entropia è alta e la filigrana tiene. Cosa cambia davvero per te?
 Meno di quello che si può temere da una parte, qualcosa di più insidioso dall'altra.
@@ -74,6 +80,8 @@ Ma quindi perché Anthropic ha scelto proprio questa via? La risposta non è cer
 
 Detto questo, la domanda ovvia che può venire in mente è se esiste un sistema per verificare la presenza del marchio.
 
+## La verifica: una promessa difficile
+
 Anthropic dice "presto", ma da quando l'ha annunciato sono passati oltre dieci giorni e il rilevatore ancora non c'è. 
 Il ritardo non è un dettaglio tecnico ma risponde ad un problema per il quale non esiste una soluzione pulita. Quando si parla di filigrana verificare e aggirare sono le due facce di una stessa medaglia. Il rilevatore è lo strumento che, con la chiave, riconosce il marchio; permettere che chiunque possa utilizzarlo significa dare la possibilità a chiunque di limare l'output ottenuto fino a che tale marchio sparisce. Ed è così che funziona una firma dentro al testo: la firma esterna la verifichi senza che questo aiuti a falsificarla, ma muore al copia-incolla; il marchio intrinseco sopravvive a quest'ultimo, ma proprio per poterlo fare non può permettere di essere verificato.
 
@@ -98,6 +106,8 @@ E si può andare persino oltre il rimuoverlo. Nello studio "Watermark Stealing i
 Si potrebbe obiettare che non si sta parlando di Claude, e sì, è assolutamente vero, la fattibilità sull'LLM di Anthropic è probabile ma non certa e, soprattutto, mentre per KGW2-SelfHash si parla di una spesa irrisoria – 50$ di chiamate API per generare testo marchiato – la spesa su Claude, non essendo stato testato, è ignota e potrebbe non essere altrettanto irrisoria. Quindi il sistema alla fine è valido? A mio avviso, no e per un motivo semplice: chi vuole liberarsene lo fa gratis – un modello aperto non
 l'ha mai marchiato, e a un testo marcato bastano una traduzione o una riscrittura perché il segnale sparisca. Il rilevatore, quando arriverà, saprà dire "questo l'ha scritto Claude" a chi non ha fatto nulla per nasconderlo, e tacerà su chi l'ha tradotto o riscritto. Giudica chi si è adeguato, non chi ha aggirato.
 
+## Uniamo i punti: chi ci rimette davvero?
+
 La conclusione, a mio avviso, è pura inferenza logica: il marchio non ti espropria e non ti incolpa – questo è innegabile – dice solo "hey, qui c'è passato Claude!", e non sappiamo se dirà con quale entità o solo sì o no. E lo fa sempre sullo stesso tipo di utente, quello sbagliato. Chi scrive il pezzo e fa ricontrollare e rivedere il testo dall'IA porta il marchio e con esso il ragionevole dubbio su quanto sia davvero suo. E il rilevatore, in qualunque modo decideranno di implementarlo, non farà altro che acuire il problema, non migliorarlo. 
 Marcatura, evasione, verifica: da qualunque lato la guardi, il verso è lo stesso. Il peso grava sull'onesto e scivola via da chi aggira. È un sistema di trasparenza i cui costi sono inversamente proporzionali alla colpa.
 
@@ -105,6 +115,8 @@ Sì, si dichiara che è proprio questo l'intento ed è proprio l'utente onesto i
 Non è speculazione o malizia, è un dato: la forma stessa dello strumento – marchio non pubblicamente verificabile (ad ora), scelto dove bastava meno – lo rende, di fatto, un giudizio sull'onesto.
 
 Non ti stanno rubando la proprietà sul tuo lavoro, quella rimane esattamente dov'era. Ti stanno rendendo interrogabile su quanto è davvero tuo; dall'altro lato, ed è ironico, a chi ha barato non viene chiesto assolutamente niente.
+
+## Una piccola curiosità su questo pezzo
 
 E chiudo con due parole su questo stesso testo – quello che hai appena letto – dato che, dopo tutto quello che ho scritto, sono d'obbligo: questo articolo utilizza Claude e lo fa a più livelli.
 
